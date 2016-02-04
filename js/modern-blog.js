@@ -137,11 +137,10 @@ var demo = (function (window) {
      * Create a sequence for the open or close animation and play.
      * @param {boolean} isOpenClick Flag to detect when it's a click to open.
      * @param {number} id The id of the clicked card.
-     * @param {Event} e The event object.
      * @private
      *
      */
-    var _playSequence = function (isOpenClick, id, e) {
+    var _playSequence = function (isOpenClick, id) {
 
         var card = layout[id].card;
 
@@ -158,7 +157,7 @@ var demo = (function (window) {
         if (!card.isOpen) {
             // Open sequence.
 
-            _setPatternBgImg(e.target);
+            _setPatternBgImg($(this).find(SELECTORS.cardImage).find('image'));
 
             sequence.add(tweenOtherCards);
             sequence.add(card.openCard(_onCardMove), 0);
@@ -280,9 +279,7 @@ var demo = (function (window) {
         if (toId) {
             var toBlogCard = $('[' + ATTRIBUTES.id + '="' + toId + '"]')[0];
             if (toBlogCard) {
-                _playSequence.call(toBlogCard, true, getIndex(toBlogCard), {
-                    target: $(toBlogCard).find(SELECTORS.cardImage).find('image')
-                });
+                _playSequence.call(toBlogCard, true, getIndex(toBlogCard));
             }
         }
     };
