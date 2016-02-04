@@ -44,3 +44,6 @@ Temporary Items
 
 #Jekyll
 _site
+
+# webstorm
+.idea
