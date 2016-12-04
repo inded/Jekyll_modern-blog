@@ -1,10 +1,10 @@
 ---
-title:  "Absense of light"
-subtitle: "Only lights from space"
+title:  "Know More"
+subtitle: "Curiosity - one of the great secrets of happiness"
 author: "Wferr"
 avatar: "img/authors/wferr.png"
-image: "img/d.jpg"
-date:   2015-04-23 12:12:12
+image: "img/a.jpg"
+date:   2015-04-20 12:12:12
 ---
 
 ### Dolor sit amet?

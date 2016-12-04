@@ -1,6 +1,6 @@
 ---
-title:  "Watches"
-subtitle: "The Bigger the better?"
+title:  "Meet Us"
+subtitle: "The pilots of the Project"
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/c.jpg"
