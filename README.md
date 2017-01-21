@@ -2,7 +2,7 @@
 
 A Simple, Clean and responsive modern blog for jekyll.
 
-## [Live Demo](http://bramazan.github.io)
+## [Live Blog](http://bramazan.github.io)
 
 ## Attributions
 Based off of this [article from Codrops](http://tympanus.net/codrops/?p=24222)
