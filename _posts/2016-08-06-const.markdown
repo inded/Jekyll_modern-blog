@@ -1,0 +1,43 @@
+---
+title:  "Const ve ReadOnly"
+subtitle: "Prrogramlamaya giriş"
+author: "Burak"
+avatar: "img/authors/wferr.png"
+image: "img/f.jpg"
+date:   2015-12-25 12:12:12
+---
+
+Uzun bir ara  sonra basit bir konuyla tekrar blog yazılarına başlıyorum. Konumuz const ve readonly. Zaten çok anlatılacak bir şey yok bu konuda. Kısaca bahsederek birkaç örnek üzerinde kullanımlarına bakalım. 
+
+### CONST:
+
+Const türkçe karşılığı olarak sabit anlamına gelmektedir. Yani buradan anladığımız kadarıyla sabit değerleri tanımlarken const ifadesini kullanacağız. Peki sabit derken tam olarak ne kastediyoruz buna bakalım. Örneğin; bir dairenin çevresini hesaplayacağız. Burada doğal olarak Pi sayısını kullanmamız gerekiyor. Pi değeri ise değişkenlik gösterebilecek, duruma göre artırıp azaltılabilecek bir değer değil. Yaklaşık olarak 3.14 gibi bir değere sahip. Bu nedenle bizde uygulamalarımızda pi sayısını kullanıyorsak değerini sadece bir kez atayarak bir daha bu değeri değiştirmek istemeyeceğiz. Tabii burada örneğimiz pi sayısı olsa da birçok farklı amaç için sabit değerler tanımlayabiliriz. (Örneğin; bir ürünün fiyatı hesaplanırken kdv oranı sabit bir değer olabilir.)
+
+Peki neden const ifadesini kullanmalıyız. Bu sorunun cevabını en başta verdik aslında. Burada amaç değişkenimizin değerinin değiştirilmemesi. Yine pi sayısı üzerinden devam edersek örneğin biz uygulamamızda pi sayısını 3.14 olarak kullanıyoruz. Eğer const ifadesini kullanmayarak değerini 3 olarak değiştirirsek hatalı sonuçlar elde edeceğiz. 
+
+Şimdi const ifadesini nasıl kullanacağımıza bakalım:
+
+
+Tanımlamasını genel olarak yukarıdaki biçimde yapabiliriz. Biz burada Pi değerinin tanımlamasını yaptıktan sonra bir daha Pi değişkenine bir değer ataması yapmak istersek aşağıdaki şekilde hata alacağız. 
+
+
+Gördüğümüz gibi Pi'nin değerini 3.14  iken 3 olarak değiştirmek istediğimizde derleme zamanı hatası alıyoruz. Yani buradan da anlıyoruz ki const ile bir değişken tanımlanırken sadece değişkeni tanımladığımızda değer atayabiliriz. Daha sonrasında tüm atamalarımız hata verecektir. 
+
+
+Yukarıda olduğu gibi const ile değer atamadan sadece değişken tanımlayıp daha sonra değer atayalım dersek yine bir hata alacağız. Bu seferki hata ise const ifadeye bir değer ataması yapılmasının zorunlu olduğu ile alakalı olacaktır.
+
+Velhasıl const böyle. Şimdi bir de Readonly nedir, ne değildir ona bakalım. 
+
+ 
+
+### READONLY:
+
+Readonly ifadesinin türkçesi ise sadece okunabilir anlamında. Yani yine burada da değişkene bir atama yapacağız ve bir daha o değeri değiştirmeyeceğiz. O zaman const ile arasında ne fark var ? Neden readonly kullanalım ? 
+
+Readonly' nin const ile arasındaki en büyük fark değişkenin tanımlandığı anda değer ataması yapılması zorunlu değildir. Daha sonra da değer ataması yapabiliriz. 
+
+Gördüğünüz gibi hem yukarıdaki gibi const ifadesine benzer bir şekilde atama yaparak hem de çalışma zamanında değer ataması yaparak kullanabiliriz. Çalışma zamanına da bilmeyenler için bir örnekle değinecek olursak;
+
+Yukarıdaki ifade de çalışma zamanında Yil değişkenine 2016 değeri atanacaktır. Bu ifadeyi const ile yazdığımızda ise yanındaki şekilde görüldüğü üzere hata alınacaktır. Aşağıda yer alan görselde de yine const ifadesi ile yapamayacağımız bir tanımlama bulunuyor. Readonly ile class constructor 'ında değer ataması yapabiliriz. 
+
+Madem readonly ifadesi ile hem const gibi tanımlamalar yapabiliyoruz hem de bunun dışında çalışma zamanında ve class constructor' ında da atama yapabiliyorum o halde neden const ifadesine ihtiyaç duyuyorum? Burada da neden const ile hem class içerisinde hem method içerisinde tanımlama yapabiliyorken readonly ifadesi ile yalnızca class içerisinde tanımlama yapabiliyoruz. Method içerisinde readonly ile bir tanımlama yapmak istersek aşağıdaki şekildeki gibi bir hata alacağız.
