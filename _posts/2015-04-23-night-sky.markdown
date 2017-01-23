@@ -1,20 +1,37 @@
 ---
-title:  "Absense of light"
-subtitle: "Only lights from space"
-author: "Wferr"
+title:  "3D Yazıcılar"
+subtitle: "Geleceğin teknolojileri"
+author: "Burak"
 avatar: "img/authors/wferr.png"
 image: "img/d.jpg"
-date:   2015-04-23 12:12:12
+date:   2016-02-05 21:18:17
 ---
+ 
+Son zamanlarda herkesin dilinde olan 3d yazıcılar birçok insan gibi beni de heyecanlandırıyor.  Bugüne kadar yaptıkları, bundan sonra yapacaklarıyla 3d yazıcıların bugünü ve geleceğimizi şekillendireceğinden şüphemiz yok.  Peki bu kadar sık duymaya başladığımız bu 3d yazıcılar nedir, ne işe yarar ? Biraz bunlardan bahsedelim.
 
-### Dolor sit amet?
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum non mi non pulvinar. Donec tempus risus vel ex fringilla tempor. Vivamus pharetra non mauris quis fermentum. Vestibulum sed maximus elit, sit amet suscipit orci. Morbi at enim at libero dignissim egestas vel ac nisi. Etiam at lectus a arcu sodales consequat. Aliquam consequat ligula sed purus tincidunt, a ultrices nibh dapibus. Phasellus convallis ipsum nec semper ultricies. In facilisis lacus velit, sit amet lacinia velit blandit id. Nullam ut magna erat. Aliquam sit amet dapibus odio, aliquet tempus tortor. Donec in nisi massa.
+### 3D Yazıcı Teknolojisi Nedir ?
 
-### Aliquam suscipit.
-Cras eget nisl accumsan, porta nisl in, egestas sapien. Vestibulum gravida nulla sed facilisis tempor. Suspendisse maximus nisi sit amet velit sodales fringilla. Vivamus luctus risus eget dui consectetur porttitor. Maecenas ut ultrices orci. Maecenas mollis est eu sodales mollis. Nulla facilisi. Suspendisse eros arcu, elementum sed sem eu, pharetra rhoncus odio. Proin nec tincidunt velit. Cras nisl augue, faucibus sed mauris in, vestibulum mollis nisl. Nam id libero ultrices, consequat ex vitae, convallis nulla.
+https://www.youtube.com/watch?v=Llgko_GpXbI
 
-Suspendisse lorem odio, blandit at nisl quis, hendrerit tempus tellus. Donec eget leo quis nisi vulputate consectetur. Praesent dignissim enim elit, congue luctus nisl cursus at. Sed rutrum molestie risus. Donec vulputate gravida accumsan. Vivamus tempus ullamcorper eleifend. Sed sagittis mi ut dolor tincidunt, ac rutrum nisi commodo.
+3D Yazıcı teknolojisi, bilgisayar ortamında tasarladığınız 3 boyutlu objeleri somut hale dönüştürebileceğiniz araçlardır. .stl uzantılı dosya olarak kaydedilen 3 boyutlu tasarımlar, 3d yazıcıya gönderilerek katman katman gerçeğe dönüştürülür. Kısacası 3d yazıcı teknoloji ile artık aklınızda ne varsa ellerinizle de dokunabileceksiniz.
 
-Fusce non elit in diam rutrum vestibulum. Donec vitae elementum erat. Praesent elementum eget justo at bibendum. Fusce interdum diam lorem, ut placerat elit pretium quis. Quisque eu urna at quam commodo sagittis. Etiam posuere convallis tincidunt. Phasellus vitae ligula neque. Vivamus a purus at dolor iaculis placerat. Curabitur convallis eu lacus congue sagittis.
+3d yazıcı teknolojisi aslında yeni bir teknoloji değil ilk olarak 1984 yılında bir uygulaması yapıldı ancak geçtiğimiz 20 yılda bu yöntem çok fazla ilgi görmedi. 2006 da başlayan Reprap  projesi(açık kaynak donanım harekatı) ile çok daha geniş kitlelere ulaştı. Bu proje sayesinde bir çok sıradan kullanıcı ve kendin yap kültürüne sahip kişiler bir 3d yazıcıya sahip oldu. Hatta projenin başlangıcından 3 yıl sonra bir çok şirket açık kaynak 3d yazıcı üretmek ve satmak için Reprap projesinin getirdiklerinden faydalanarak teknolojiyi çok daha geniş bir kullanıcı kitlesine yaymayı başarmıştır.
 
-Aliquam suscipit fermentum mauris a accumsan. In facilisis, mauris quis pulvinar tempus, turpis sapien sodales nibh, nec feugiat augue est quis nisi. Fusce eget odio feugiat, luctus quam et, dapibus nulla. Sed ornare lacus non libero lacinia pretium. In eu dui vitae purus euismod feugiat ac ac est. Morbi vitae pretium lorem, non eleifend felis. Nullam at massa feugiat, rutrum elit at, semper lacus. Etiam vel rutrum felis. Nullam quis auctor lorem, et tempor arcu.
+### Nasıl Çalışır ?
+
+3d modelleme yapabilen tasarım programları kullanılarak stl uzantılı dosyalar elde edilir. Daha sonra 3d baskı işlemine geçilir. Burada obje katmanlar halinde üst üste serilerek oluşturulur. Son aşama olarakta 3D printer ile gerçekleştirilen objeler geleneksel teknolojiler ile karşılaştırıldığında boyutsal açıdan daha hatalı olabileceğinden dolayı kritik objelerde yüzey temizleme, iyileştirme ve son ölçüye getirme işlemi uygulanır.
+
+Peki normal yazıcılarda kullanılan mürekkep yerine ne koyacağız ?
+
+Bu sorunun cevabı aslında makinenin hangi 3d teknolojisini kullandığına göre değişiyor. Örneğin; FDM teknolojisini kullanan 3d yazıcılarda PLA ve ABS plastikleri yaygın olarak kullanılıyor. Fakat daha profesyonel makinalarda altın, platinyum,titanyum, seramik tozu, metal tozu, metal görünümlü-akrilik plastikler ve mumsu maddeler ile daha birçok farklı hammadde kullanılabiliyor.
+
+### Neler Yapılır ?
+
+https://www.youtube.com/watch?v=dcX41EQ1JTo
+
+Yukarıdaki videoda da görüldüğü üzere 3d yazıcı teknolojisi sayesinde birçok harika şey yapılabiliyor.  Özellikle sağlık sektöründe düşük maliyetlerle çeşitli uzuvların üretilmesi çok önemli bir gelişme. Tabi gün geçtikçe hayatımıza daha çok giren robotların üretilmesinde de rol oynayacağa benziyor. Kim bilir, belki de bundan 10 yıl sonra hepimiz evlerimizde kendimiz için 3d yazıcılarda robot üretiriz.
+
+
+3d yazıcılar elbette bunlarla yetinmiyor. Çin’li bir şirket endüstriyel atıklarla 1  günde sadece 12.000 tl maliyetle 200 metrekare bir ev yaptı. Üstelik bu sadece başlangıç. WikiHouse ise isteyen herkesin kendilerine bir ev yapabilmesi için açık kaynak ev projesini paylaştı. Site üzerinden bir evin modelini indirip bunu 3d makinenizde basabilirsiniz. Elbette her 3d yazıcı ile bu mümkün değil 😀 ) fakat 3d yazıcıların hem ekolojik olması hem de 1 gün gibi çok kısa sürede ve çok düşük maliyetlere ev üretebilmesi nedeniyle ilerleyen yıllarda inşaat sektöründe büyük değişimler gözlemlenebilir.
+
+3d yazıcılarla üretilebilecek diğer bir şey ise kişisel eşyalar. Kendiniz için küçük maketler ya da sevgiliniz için bir hediye üretebilirsiniz. Hem hobi olarak hem de aklınıza gelen hemen her şeyi oluşturabilmeniz oldukça keyifli olacaktır. Bu saydıklarımız dışında 3d yazıcılarla elbette birçok şey üretilebiliyor. Aslında bu birazda bizlerin yaratıcılığına kalıyor. Şimdiye kadar elbise, çalınabilir keman, göğüs kafesi, süper spor otomobil, insansız hava aracı, çikolata, kek, uçak ve jet motoru, teleskop, jeneratör ve telefon gibi birçok farklı ürün üretildi. Bakalım bundan sonra neler olacak.
