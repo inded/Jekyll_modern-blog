@@ -1,7 +1,7 @@
 ---
 title:  "Bilgisayarın Açılmama Sorunu"
-subtitle: "A Beautiful shot during the night."
-author: "Wferr"
+subtitle: "Şartel attı galiba"
+author: "Burak"
 avatar: "img/authors/wferr.png"
 image: "img/b.jpg"
 date:   2016-03-16 17:12:05
