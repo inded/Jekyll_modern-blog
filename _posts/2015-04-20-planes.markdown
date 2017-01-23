@@ -1,10 +1,10 @@
 ---
 title:  "İyi niyetli “HACKER” cihan nalbant ve yalanları !"
 subtitle: "Hacker'ın iyisi?"
-author: "Wferr"
+author: "Burak"
 avatar: "img/authors/wferr.png"
 image: "img/a.jpg"
-date:   2015-04-20 12:12:12
+date:   2016-05-10 14:10:12
 ---
 
 Bugünlerde fazlaca görmüş olmaktan sıkıldığım ve artık insanları göz göre göre kandırmanın bu kadar kolay olmaması gerektiğini düşündüğüm için böyle bir yazı yazma gereksinimi hissediyorum.
