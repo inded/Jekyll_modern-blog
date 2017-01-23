@@ -1,0 +1,80 @@
+---
+title:  "Diziler ve Koleksiyonlar"
+subtitle: "Giriş"
+author: "Burak"
+avatar: "img/authors/wferr.png"
+image: "img/f.jpg"
+date:   2016-08-14 12:12:12
+---
+
+Bugün C# ta dizilerin ve koleksiyonların kullanımından bahsedeceğim. Aslında bu konu da bir önceki yazım gibi temel programlama. Fakat bu yazıları tamamlayarak daha ileri seviye konular hakkında yazmaya karar verdiğim için şimdilik bunlarla idare edeceğiz 🙂 Tabii burada dizilerden ve koleksiyonlardan üstün körü bahsedip, en çok kullanılan ve herkesin bildiği metodları anlatıp geçmeyi düşünmüyorum. Çok bilinen, her yerde bulabileceğiniz kısımları elimden geldiğince hızlı bir şekilde anlatıp, nispeten daha az kullanılan metodlardan bahsetmeye çalışacağım. Tabii bir de işin koleksiyonlar kısmı var. Burada da yine 3 çeşit koleksiyon tipi, birçok sınıf ve metod olduğunu düşündüğümüzde sanıyorum ki tek bir post ile halledemeyeceğiz. Bu nedenle bu yazım diziler hakkında olacak.Temel dizi prensiplerinden ve kullanılan metodlar ile nasıl kullanacağımızı konuşacağız. Diğer yazımda ise koleksiyonları inceleyeceğiz. Elimden geldiğince koleksiyonlar yazısında özellikle performans testleri yaparak örnekler göstermeye çalışacağım. Çünkü, bugün kullandığınız basit projelerde fark etmesekte kompleks sistemlerin performanslarında ciddi farklara yol açabiliyor bu durum. Son olarakta diziler ve koleksiyonların artıları ve eksilerini konuşarak yazımı sonlandıracağım.
+
+Her neyse uzun bir giriş yaptıktan sonra dizilere başlayabiliriz 🙂
+
+### DİZİLER:
+
+Diziler, aslında adından da anladığımız gibi verileri gruplayarak, bir arada tutmamızı sağlar. En temel amacı budur. Diziler ile aynı türden verileri bir arada tutabiliyoruz.  
+
+Hemen nasıl tanımlandığına bir bakalım;
+
+Yukarıda görüldüğü gibi türünü, ve kaç elemanlı bir dizi olacağını girerek, bu syntaxta bir dizi oluşturabiliyorsunuz. Diziyi oluşturtuktan sonra da dizinin elemanlarına 0. elemandan başlayarak değer ataması yapılır. Ve yine bu elemanlara bu index değeriyle ulaşılarak işlemler yapılır. Diziye eleman ekleme ve index değeri yardımıyla elemanları yazdırdığımız bir örnek ve çıktısı aşağıdaki gibidir.
+
+Bu kısımlarda çok fazla örnek yapmayacağım. Zaten internette konuyla ilgili birçok örnek yer alıyor o nedenle temel bilgileri ve örnekleri geçiyorum. Herhangi bir sorunuz olursa yine üzerinden geçer ya da farklı örnekler yapabiliriz. 
+
+Peki, dizimizi tanımladık, değer atadık, değer okuduk, yazdırdık ama bu kadar mı? Hayır, tabii ki 🙂 Diziler belirli yönleriyle birbirlerinden ayrılır. Örneğin; boyutlarına göre. Nasıl yani? biraz bunu açıklayalım. Diziler, boyutlarına göre tek boyutlu ve çok boyutlu olarak ikiye ayrılır. Tek boyutlu diziler yukarıda tanımlamasını yaptığımız, örneğini verdiğimiz dizilerdir.Çok boyutlu diziler ise tek bir field üzerinde değil de birden çok field üzerinde tanımlama yapmamızı sağlar.Bir matris gibi de düşünebiliriz. Çok boyutlu dizileri dedikdörtgensel ve düzensiz diziler olarak ayırabiliriz. Buraya gelmeden önce çok boyutlu bir diziyi nasıl tanımlıyoruz ona bakalım.
+
+
+Görüldüğü gibi aslında çok boyutlu dizilerin tek boyutlu olanlardan çok bir farkı yok. "," koyarak eleman sayılarını belirtiyoruz. Örneğin yukarıda 2 boyutlu, 3'er elemanlı bir dizi tanımladık.
+
+Şimdi diktörtgensel ve düzensiz olan dizilere gelebiliriz. Bu diziler, adlarından da belli olduğu kadarıyla, eğer her satırında eşit eleman varsa dikdörtgensel, eğer her satırındaki eleman sayısı farklılık gösteriyorsa düzensiz olarak adlandırılırlar. İkisi için de bir örnek ile bitirelim. 
+
+Dikdörtgensel diziyi aşağıdaki gibi tanımlayabiliriz.
+
+Düzensiz Dizi;
+
+
+Peki güzel, dizi oluşturuyoruz, eleman ekliyor, görüntülüyor, yazdırıyoruz fakat şu ana kadar hep dizimizi tanımlarken eleman sayımızı belirlemek durumundaydık. Doğal olarak önceden bizim için gerekli olan eleman sayısı kestirememiş olabiliriz. Bu durumda dizinin kapasitesini genişletmemiz gerekir. "Ben de diziyi tanımlarken gereğinden çok daha fazla boyutta bir dizi tanımlarım" diyebilirsiniz fakat bu da performans açısından hiçte uygun bir davranış değildir. O zaman nasıl genişleteceğiz dizileri? 
+
+Aslında birden fazla yöntemi var dizileri genişletmenin. Aşağıdaki gibi bir ifadeyle dizimize yeni bir boyut atayabiliriz.
+
+Ama böyle bir atama yaparsak bu diziye daha önceden atamış olduğumuz tüm değişkenler silinecektir. Ya daha önceden kaydettiğimiz değişkenlerimizin silinmesini istemiyorsak? O zamanda Array.Resize metoduyla dizimizi genişletebiliriz. Kullanımı aşağıdaki gibidir.
+
+Bizim diziler üzerinde kullandığımız tüm metodlar Array sınıfının metodlarıdır. Burada kullanılan metodların ne işe yaradığına değinelim. 
+
+### CREATEINSTANCE:
+
+Bu metod ile değişken tipini, eleman sayısını belirleyerek dizi tanımlamamızı sağlar. Aşağıdaki gibi bir kullanımı vardır. 
+
+
+### ISARRAY:
+
+Bu metod ile değişken dizi mi değil mi bunu kontrol ediyoruz. Bu metod bize boolean bir değer döndürüyor (True, false). 
+
+
+### SETVALUE:
+
+Bu metod dizimize yeni bir eleman eklemeyi sağlar. Aşağıdaki gibi kullanılır.
+
+
+### GETVALUE:
+
+Bu metod ile dizide yer alan elemanlara ulaşabiliyoruz.
+
+
+### JOIN:
+
+Dizi içerisindeki elemanları string bir değişken içerisinde birleştirmeyi sağlar. Elamanlar arasında bir ayırıcı karakterde kullanabiliriz.
+
+
+### COPY:
+
+Bir  dizi içeriğinin bir başka diziye kopyalanmasını sağlar. İki farklı şekilde kullanabiliriz.
+
+
+### CONTAINS:
+
+Dizi içerisinde aradığımız elamanın olup olmadığını kontrol etmemize yarayan metoddur. Eğer aradığımız değer dizide mevcutsa "True" değilse "False" değer döndürecektir.
+
+Bir diğer dizi içerisinde arama yapabileceğimiz  metod da "IndexOf" metodudur. Bu metodun Contains metodundan farkı geriye aranan elemanın index değerini döndürmesidir. Eğer aranan değer bulunmuyorsa "-1" değerini döndürür. Buna menzer bir diğer metod da LastIndexOf metodudur. IndexOf metodundan farkı ise eğer aradığımız değer dizi içerisinde birden fazla indexte mevcutsa son bulunan index değerini verir.
+
+Şimdilik aklıma gelen, genel olarak kullanılan metodlar bunlar. Kısa kısa değinmeye çalıştım. Eğer anlaşılmayan bir nokta varsa iletişime geçerseniz, elimden geldiğince farklı örneklerle de açıklamaya çalışırım.Birkaç gün içerisinde koleksiyonları da yayınlayacağım. 
