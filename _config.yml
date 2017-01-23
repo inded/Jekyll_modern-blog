@@ -5,3 +5,6 @@ keywords: Burak RAMAZAN, Software, Blog
 author: Burak
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
+
+
+gem 'jekyll-admin', group: :jekyll_plugins
