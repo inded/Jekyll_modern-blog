@@ -1,0 +1,59 @@
+---
+title:  "REGULAR EXPRESSIONS (DÜZENLİ İFADELER)"
+author: "Burak"
+avatar: "img/authors/wferr.png"
+image: "img/f.jpg"
+date:   2016-09-04 23:00:00
+---
+
+Regular expressions, bir string içerisinde  değer aramak, karşılaştırmak ve değiştirmek gibi işlemleri yapmamızı sağlayan ifadelerdir. Örneğin, sisteminize bir kullanıcı kayıt olacak ve siz bu kullanıcıdan çeşitli bilgiler isteyeceksiniz. Girdiği mail adresi doğru formatta mı? yani bir kullanıcı adı ardından "@" karakteri ve sonrasında domain adı.com gibi bir ifade olması gerekir. Kullanıcı mail adresini girerken "@" ifadesini kullanmaması yanlış bir giriş yapıldığının göstergesidir. Biz de bu durumu kontrol altında tutabilmek adına kullanıcıya bunu bir hata olarak döndürerek doğru girişi yapmasını sağlamamız gerekir. Bu gibi durumlar için regular expressions  kullanacağız. EN başta da söylediğim gibi bu ifadelerle arama, karşılaştırma ya da değiştirme gibi işlemler yapabiliyoruz. Elbette tüm bunları yapabilmek için system.text.regularexpressions sınıfını projeye dahil etmeliyiz.
+
+Şimdi biraz özel karakterlerden, ardından da bazı metodlardan bahsedelim.
+
+Özel Karakterler:
+
+String içerisinde arama yaparken bu karakterlerden yararlanacağımız için bu karakterle iyi geçinmek gerekiyor. 
+
+$: Metnin bitişini gösteren ifadedir. 
+
+*:  Kendisinden önce belirtilen karakterin metin içerisinde hiç olmadığını ya da bir ve ya daha fazla olduğunu ifade eder.
+
++: Kendisinden önce belirtilen karakterin birden fazla tekrarlanabileceğini gösterir
+
+.:  Herhangi bir karakteri belirtir.
+
+^:  Karşılaştırma işleminin başlayacağı ilk karakteri belirtir.
+
+?:  Kendisinden önce belirtilen karakterin olup olmadığını gösterir.
+
+### REGEX SINIFI:
+
+Bu sınıf yardımıyla karşılaştırma, arama ya da düzenleme işlemlerini yapıyoruz. 
+
+### ISMATCH METODU:
+
+Aradığımız kelime grubunun bir metnin içerisinde yer alıp almadığını öğrenmemizi sağlar. Bolean tipinde bir değer döndürür.
+
+Aşağıda yer alan örnekte Regex sınıfının IsMatch metodu ile word değişkeninin boş olup olmadığını kontrol ediyoruz.
+
+^\\s ile boşluk tuşunun başlangıç olduğunu, * ile birden fazla boşluk karakteri olabileceğini ve $ ile de aramanın bittiğini ifade etmiş olduk. Eğer herhangi bir değer girilmezse true olarak değer dönecek ve ekrana "Herhangi bir değer bulunamaadı" yazısı çıkacaktır. Aksi durumda ise "Değer Girilmiş" yazısı ekrana çıkacaktır.
+
+### MATCH METODU:
+
+Bir diğer örnekte de kullanıcı: yazısından sonra girilen ifadeyi sonuc değişkenine atayarak ekrana yazdırdık. Bu işlemi yaparken Match metodunu kullanırız. Bu metod bize aranan metin bulunursa geriye aranan metni döndürür.
+
+### MATCHES METODU:
+
+Match metodu ile aynı işleve sahiptir. Farkı bulunan tek sonucu değil de tüm sonuçları getirmesidir.   
+
+Yukarıda görüldüğü gibi bir döngüyle Adı: ifadesinden sonra gelen karakterleri ad dizisine aktardık. RegexOptions.Multilins ise metin birden fazla satırda arama yapılacağı durumlarda kullanılmaktadır.
+
+### REPLACE METODU:
+
+Metnin içerisinde yer alan ifadeyi değiştirmek amacıyla kullanılır. Aşağıda görüldüğü gibi önce bir metin girdik ardından cümlemizde yer alan "bir" yazısını "iki" olarak replace metodu sayesinde değiştirdik. 
+
+### SPLIT METODU:
+
+Split metodu metni istediğimiz bir ayraç sayesinde bölmemizi sağlamaktadır. Daha önce dizilerde anlattığım bu metod Regex sınıfı içerisinde de benzer bir kullanıma sahiptir.
+
+Bunun dışında Github linkinden Regex sınıfının Matches metodunu kullanarak herhangi bir web sitesinin kodlarını kontrol ederek, sayfada bulunan mail adreslerinin listelenmesini sağlayan uygulamayı indirebilirsiniz.

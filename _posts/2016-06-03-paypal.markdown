@@ -1,0 +1,57 @@
+---
+title:  "PAYPAL ‘A VEDA"
+author: "Burak"
+avatar: "img/authors/wferr.png"
+image: "img/c.jpg"
+date:   2016-06-03 19:37:41
+---
+
+Birkaç gündür çeşitli spekülasyonlarla tarıtışılan Paypal, Türkiye operasyonlarını sonlandırma kararı aldı ve 6 Haziran itibariyle Türkiye'den işlem yapılamayacak. Yaklaşık 2 ay kadar önce TEB ile birlikte yürütülen Paypal Nakit projesini durdurmuşlardı. Şimdi de BDDK ile anlaşma sağlanamadı ve Paypal, Türkiye'den çekiliyor.  
+
+Şimdi Paypal kullanmayan, ne işe yaradığını bilmeyen, neden önemli olduğuna vakıf olmayan arkadaşlar için çokta önemli bir sorun değil elbette. Fakat özellikle bilişim sektörü için, aktif Paypal kullanıcıları için bu durumun tek bir açıklaması olabilir : SKANDAL
+
+Neden skandal olarak nitelendiriyorum peki bundan bahsedelim.                          
+
+E-ticarette haklı olarak hala bir güvensizlik söz konusu. Özellikle yurt dışından alışveriş yapan insanlar birçok problemle karşılaşabiliyor. Paypal bu konuda kredi kartlarının, internet sitelerinin asla yapamadığı bir şeyi yapıyor. Size gönül rahatlığıyla alışveriş yapma imkanı sunuyor. Bir problem olduğunda da sizin hakkınızı savunuyor ve paranızı iade ediyor. Doğal olarak bu durum e-ticarete olan güveni artırıyor ve insanlar alışveriş yapmaktan vazgeçmiyor.
+Paypal, tüm dünyada ödeme sistemlerinin tekelidir. Bugün Ebay, Aliexpress, DealExtreme gibi yurt dışı siteleri ile n11, Gittigidiyor,D&R, Çiçeksepeti gibi yerli firmalarda Paypal kullanıyor. En büyük avantajlarından birisi de zaten bu. Hiçbir ödeme sistemi Paypal kadar çok yerde kabul görmüyor.
+Anında para almanıza ve anında para göndermenize olanak sağlar.                                                                                                                                               Screenshot_2
+Özellikle yeni başlayan e-ticaret firmaları için mükemmel bir çözümdür. Hem sanal pos almak için uğraşmanız gerekmez hem de bir deneme yapmak istiyorsanız kolayca ödeme almanızı sağlar. Ayrıca Paypal ile ödeme alıyor olmanız müşterilerin gözünde güvenilirliğinizi artırır.                                                                
+
+Eğer yurt dışına yazılım ya da bir hizmet satıyorsanız iki taraf için en uygun yöntem yine Paypal olacaktır. Burada da neden elbette güven. Düşünün! bir yazılım sattınız ödemeyi çek ile mi isteyeceksiniz ya da Garanti sanal pos mu tercih edeceksiniz? Müşteriniz hangi önerinize sıcak bakacaktır ?                    
+
+ Gelelim en çok Paypal tercih edilme sebeplerinden bir diğerine. Diğer maddelerde Paypal avantajlarından dolayı öne çıkıyor ve bu nedenle de 1 numaralı tercih oluyor dedik. Peki ya Paypal dışında bir seçeneğiniz yoksa? Evet, evet yanlış duymadınız Paypal, günümüzde bir çok sitede kullanılıyor. Bir çoğunda da ödemeler sadece Paypal üzerinden yapılabiliiyor.
+ 
+
+Evet, şimdi bir düşünelim. 6 Haziran itibariyle tüm bu kolaylıklara elveda diyoruz. Sanıyorum artık yazımın başında durumu skandal olarak özetlemem konusunda hemfikiriz. 
+
+### Çünkü;
+
+Artık Amazon dışında yurt dışında yer alan hiç bir siteden alışveriş yapamayacağız.Bu durumda da önceden 20$ karşılığında yurt dışından aldığımız ürünü 200 Tl 'lik ücretiyle yurt içinden alacağız,
+
+Çok basit ve kolay bir işlem olan para alma, para aktarma gibi işlemler bundan sonra daha pürüzlü ve biraz daha gecikmeli gerçekleşebilir,
+
+Yeni açmış olduğunuz bir e-ticaret siteniz varsa ya ürünlerinizi ucuza satarak müşterilerinizin risk almasını sağlayın ya da farklı tekniklerle onların güvenini kazanın,
+
+Yazılım ihracatı yapıyorsanız küresel rekabette işiniz zorlaşacaktır. Kimse size amaann! ne olacak? diyerek bir çek vermez. Bu nedenle de müşteriniz sizinkinden daha fazla ücretle, daha güvenli bir firma ya da kişiyle anlaşabilir. 
+
+Eğer sadece Paypal ile ödeme yapan sitelerden birisinde mal ya  da hizmet satışı yapıyorsanız (Udemy, Paypal) TEBRİKLER, BATTINIZ!
+
+ 
+
+Eminim ki, ülkemizde ÜRETMEYEN, hala Paypal  nedir bilmeyen, yasaya da uysaymış kardeşim diyen bir çok insan mevcut. Fakat, dünyada 180 milyon üyeye sahip evrensel bir sistem ile anlaşılamaması bana göre ironik bir durumdur.
+
+Konuyla alakalı bir çok teori ortaya atılıyor. Bunlardan birisi de BKM 'nin yeni ödeme yöntemi olan TROY. Bazı kişilere göre Paypal'ın lisans alamamasının nedeni bu yeni ve yerli ödeme sisteminin rakibi olan Paypal'ı ülkeden çıkararak yerine çözüm arayanların TROY ödeme sistemini kullanmaya yönlendirmek. 
+
+Konuyla alakalı BKM genel müdürünün açıklaması
+
+https://youtu.be/TLYVf5nOjf4?t=102.
+
+Bir diğer konu ise Paypal üzerinden elde edilen gelirlerin vergilerinin alınamıyor olması nedeniyle Paypal'a lisans çıkmadığı yönündeydi. Şimdi burada BDDK kurum ve yöneticilerine sormak lazım. Paypal üzerinden gelir elde eden insanlar ülkeye döviz girişi sağlıyor. Bu durumunda önemini kundaktaki bebekler bile bilir. Aynı zamanda bir çok insan buradan elde ettikleri kazançların vergisini ödüyor. Elbette, buradan ellde ettiği kazancın vergisini ödemeyen de insanlar bulunuyor. Peki soruyorum sen ödüyorsun, o ödüyor ama bak bu ödemiyor diyerek Paypal' ı toptan ülkeden çıkartıp bu insanların ekmeğiyle oynamak hak mıdır? Buradan 3-5 bin tl gelir elde eden insanların vergilerinin takibi bu derece sık takip edilmek istenilirken neden milyon dolarlar kazanan şirketlerin vergilerinde bu şekilde hassas davranılmıyor? Kayıtdışıı ekonominin %39 olduğu ülkemizde kabak Paypal'a ve buradan 3-5 kuruş kazanan insanlara patlıyor.
+
+BDDK konuyla ilgilii yaptığı açıklamada ise Paypal 'dan veri merkezlerini Türkiye'ye taşımasını istemiş Paypal ise bu duruma istinaden herhangi bir çalışmada bulunmamış ve bundan dolayı izin verilmemiş.Bu açıklamaya ne demeliyim bilmiyorum açıkçası. Uluslararası ödeme sistemi hizmeti veren kuruma gelin sunucunuzu buraya kurun demek nasıl bir yaklaşımdır? Firma, sadece bir bölgeye dev bir veri merkezi kurmak varken her hizmet verdiği ülkeye ayrı bir veri merkezi kurması nasıl bir maliyet oluşturur bunu düşünüyorlar mı? 
+
+Sonuç olarak; AKIL TUTULMASI olarak nitelendirdiğim bu gibi kararlar umarım bir daha tekrar edilmez ve Paypal konusunda olumlu gelişmeler yaşanarak ülkemizde hizmet vermeye devam eder.
+
+Paypal'ın para çekme konusunda 15 tl gibi bir alt limiti bulunuyor. Bu nedenle 6 Haziran tarihine kadar hesabınızdaki parayı 15 tl'ye tamamlamalısınız. Eğer tamamlayamazsanız Ekşi sözlükte Lösev 'e destek kampanyası başlatılmış.Aşağıdaki linkten bağış yapabilirsiniz.
+
+http://www.losev.org.tr/bagis/Losev_paypal.aspx

@@ -1,20 +1,37 @@
 ---
-title:  "I scream"
-subtitle: "But do you scream?"
-author: "Wferr"
+title:  "En iyi Visual Studio Eklentileri"
+subtitle: "Geliştiricinin yardımcıları"
+author: "Burak"
 avatar: "img/authors/wferr.png"
 image: "img/e.jpg"
-date:   2015-04-24 12:12:12
+date:   2016-01-14 12:12:12
 ---
+Kod yazarken en önemli şeylerden biriside idelerdir. Kod bilgisinin yanında kullandığınız editörün kullanışlı olması gerekir. Bu nedenle ülkemizde geliştiricilerin oldukça sık tercih ettiği Visual Studio ‘yu nasıl daha kullanışlı hale getirebileceğinizden bahsedeceğim.
 
-### Dolor sit amet?
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum non mi non pulvinar. Donec tempus risus vel ex fringilla tempor. Vivamus pharetra non mauris quis fermentum. Vestibulum sed maximus elit, sit amet suscipit orci. Morbi at enim at libero dignissim egestas vel ac nisi. Etiam at lectus a arcu sodales consequat. Aliquam consequat ligula sed purus tincidunt, a ultrices nibh dapibus. Phasellus convallis ipsum nec semper ultricies. In facilisis lacus velit, sit amet lacinia velit blandit id. Nullam ut magna erat. Aliquam sit amet dapibus odio, aliquet tempus tortor. Donec in nisi massa.
+Sırasız bir şekilde işinize yarayacağını düşündüğüm Visual Studio eklentileri;
 
-### Aliquam suscipit.
-Cras eget nisl accumsan, porta nisl in, egestas sapien. Vestibulum gravida nulla sed facilisis tempor. Suspendisse maximus nisi sit amet velit sodales fringilla. Vivamus luctus risus eget dui consectetur porttitor. Maecenas ut ultrices orci. Maecenas mollis est eu sodales mollis. Nulla facilisi. Suspendisse eros arcu, elementum sed sem eu, pharetra rhoncus odio. Proin nec tincidunt velit. Cras nisl augue, faucibus sed mauris in, vestibulum mollis nisl. Nam id libero ultrices, consequat ex vitae, convallis nulla.
+### Productivity Power Tools 2015
 
-Suspendisse lorem odio, blandit at nisl quis, hendrerit tempus tellus. Donec eget leo quis nisi vulputate consectetur. Praesent dignissim enim elit, congue luctus nisl cursus at. Sed rutrum molestie risus. Donec vulputate gravida accumsan. Vivamus tempus ullamcorper eleifend. Sed sagittis mi ut dolor tincidunt, ac rutrum nisi commodo.
+Hatalarınızla ilgili açıklamalar, otomatik olarak parantez kapatma, dosyalarımızın hangi projede olduğunu karıştırmamanız için sayfaların farklı renkte açma, kodlarınızın karmaşasını önleme gibi daha birçok temel özelliği bir arada barındıran bir tool.
 
-Fusce non elit in diam rutrum vestibulum. Donec vitae elementum erat. Praesent elementum eget justo at bibendum. Fusce interdum diam lorem, ut placerat elit pretium quis. Quisque eu urna at quam commodo sagittis. Etiam posuere convallis tincidunt. Phasellus vitae ligula neque. Vivamus a purus at dolor iaculis placerat. Curabitur convallis eu lacus congue sagittis.
+### Snippet Designer
 
-Aliquam suscipit fermentum mauris a accumsan. In facilisis, mauris quis pulvinar tempus, turpis sapien sodales nibh, nec feugiat augue est quis nisi. Fusce eget odio feugiat, luctus quam et, dapibus nulla. Sed ornare lacus non libero lacinia pretium. In eu dui vitae purus euismod feugiat ac ac est. Morbi vitae pretium lorem, non eleifend felis. Nullam at massa feugiat, rutrum elit at, semper lacus. Etiam vel rutrum felis. Nullam quis auctor lorem, et tempor arcu.
+Bu eklenti, yazmak istediğiniz kod bloğunuzu otomatik olarak doldurmayı sağlıyor. Örneğin bir if bloğu yazacaksanız if yazıp Tab tuşuna bastıktan sonra if bloğu otomatik olarak oluşuyor. Aslında visual studio içerisinde temel snippetlar mevcut fakat bu eklenti sayesinde istediğiniz snippetları düzenleyebilir ya da kendiniz yeni snippetlar oluşturabilirsiniz.
+
+### Web Essential
+
+Web essential birçok konuda visual studio ‘yu desteklemektedir. Css,Typescript, Html, Javascript,zen coding, modernizr gibi editör helperları bu desteklerden bazıları. Birden çok resmi birleştirebiliyor olması Ayrıca less, sass, json kodlarını yazarak otomatik olarak site içindeki css dosyanıza import ediyor olması da diğer katma değerleri. Hakkında tek başına bile bir makale yazılabilecek olan bu eklenti bana göre visual studio’nun en güçlü eklentilerinin başında geliyor.
+
+### Resharper
+
+Eklentiyi kullanan herkesin ortak fikri sanırım “Çok güzel, çok kullanışlı ama çok ağır bir eklenti”. Eğer sisteminize güvenmiyorsanız  kurmayın derim. Kasma sorunları yaşatabilir. Fakat olurda kurarsanız diye artılarından bahsedelim biraz. Kod yazmanıza yardımcı birçok toolbara sahip. Öncelikle sevmediğim şeylerden birisi reference eklemelerdir. Bu arkadaş reference olarak eklemediğiniz sistem dll dosyalarını bulup reference eklemenizi sağlıyor. Bunun dışında kendi kısayolları var. Bu kısayollar ile birçok iş yapabiliyorsunuz. Hatta biraz ileri gidersek ReSharper kullanıyorken aynı zamanda fare kullanıyorsanız eklentinin tam olarak hakkını veremediğinizi bile söyleyebilirim. Ayrıca çok fazla framework desteklemesi de iyi yönlerinden. Çeşitli hata verebilecek kodları tespit edip size bildirmesi falan şahane.
+
+Sonuç olarak adeta kod yazarken eliniz, kolunuz konumuna gelen, asistanınız gibi davranan bir  eklenti. Ülkemizde hala Resharper mı ? O ne ola ki ? gibi bir  tavırla karşılaşsakta dünyada iş görüşmelerinde .net geliştiricilere eklentiyi kullanıp kullanmadıkları sorulan bu eklenti kendini çoktan kanıtlamıştır. Kasma sorunu yaşatmayacak bir sisteminiz varsa ve ücreti sizin için sorun olmayacaksa şiddetle tavsiye  ettiğim eklentidir.
+
+Ücretli miydi ? diye sorduğunuzu duyar gibi oldum 😀  Evet, ücretli. Buradan bilgi alabilirsiniz.
+
+### PHP Tools for Visual Studio
+
+Php ile genellikle notepad++ ya da dreamweaver gibi ideler kullanılıyor. Bu idelere alışamamış ya da daha güçlü bir ide ile kod yazmak isteyenler için ideal bir eklenti PHP Tools. Eklenti kurulumu oldukça basit zaten. Eklentiyi kurduktan sonra templates kısmına php ekleniyor. Ayrıca herhangi bir ayar yapmadan kullanabiliyorsunuz. Bu eklenti de ReSharper gibi ücretli bir eklenti. Ücretleri hakkında buradan bilgi alabilirsiniz.
+
+Aklıma gelen ve öne çıkan eklentilerden bahsetmeye çalıştım. Daha fazlası için Bu adresten işinize yarayacak eklentileri bulup, yükleyebilirsiniz. Yukarıda da belirttiğim üzere sisteminize göre bazı eklentiler kasma sorunlarına sebep olabilir. Hatta bazen visual studio açılmayabilir. Bu gibi durumlarda visual studio safe olarak açıp eklentileri kaldırabilirsiniz.

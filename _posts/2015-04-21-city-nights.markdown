@@ -1,20 +1,33 @@
 ---
-title:  "Nobody else was around."
-subtitle: "A Beautiful shot during the night."
-author: "Wferr"
+title:  "Bilgisayarın Açılmama Sorunu"
+subtitle: "Şartel attı galiba"
+author: "Burak"
 avatar: "img/authors/wferr.png"
 image: "img/b.jpg"
-date:   2015-04-21 12:12:12
+date:   2016-03-16 17:12:05
 ---
 
-### Dolor sit amet?
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum non mi non pulvinar. Donec tempus risus vel ex fringilla tempor. Vivamus pharetra non mauris quis fermentum. Vestibulum sed maximus elit, sit amet suscipit orci. Morbi at enim at libero dignissim egestas vel ac nisi. Etiam at lectus a arcu sodales consequat. Aliquam consequat ligula sed purus tincidunt, a ultrices nibh dapibus. Phasellus convallis ipsum nec semper ultricies. In facilisis lacus velit, sit amet lacinia velit blandit id. Nullam ut magna erat. Aliquam sit amet dapibus odio, aliquet tempus tortor. Donec in nisi massa.
+Merhaba Arkadaşlar,
 
-### Aliquam suscipit.
-Cras eget nisl accumsan, porta nisl in, egestas sapien. Vestibulum gravida nulla sed facilisis tempor. Suspendisse maximus nisi sit amet velit sodales fringilla. Vivamus luctus risus eget dui consectetur porttitor. Maecenas ut ultrices orci. Maecenas mollis est eu sodales mollis. Nulla facilisi. Suspendisse eros arcu, elementum sed sem eu, pharetra rhoncus odio. Proin nec tincidunt velit. Cras nisl augue, faucibus sed mauris in, vestibulum mollis nisl. Nam id libero ultrices, consequat ex vitae, convallis nulla.
+Bu yazımı daha birkaç gün önce başıma gelmesinden dolayı yazıyorum. Aslında basit bir çözümü olmasına rağmen bilmeyen arkadaşlar için hayli korkutucu bir durum olabiliyor.
 
-Suspendisse lorem odio, blandit at nisl quis, hendrerit tempus tellus. Donec eget leo quis nisi vulputate consectetur. Praesent dignissim enim elit, congue luctus nisl cursus at. Sed rutrum molestie risus. Donec vulputate gravida accumsan. Vivamus tempus ullamcorper eleifend. Sed sagittis mi ut dolor tincidunt, ac rutrum nisi commodo.
+Bilgisayarımı daima açık ya da uyku modunda bırakanlardanım. Geçen akşam da yine bilgisayarım uyku modundayken elektrikler birkaç kez gidip geldi. Birkaç saat sonra bilgisayarımı açmak istediğimde kapandığını farkettim. Güç düğmesine bastım fakat değişen bir şey  olmadı. O sırada elektrikler olmadığından şarjının bitip kapandığını bu nedenle bilgisayarımın açılmadığını düşündüm. Yaklaşık 1 saat sonra elektrikler geldiğinde ise tekrar güç düğmesine basarak bilgisayarı açmayı denedim. Fakat yine değişen herhangi bir şey yoktu. Ne bir ışık yanıyordu ne de fan sesi geliyordu. İşte bu durumda çoğu insan panikliyor. Acaba anakart mı yandı, yoksa ekran kartına mı bir şey oldu ? Neden açılmıyor ki ? Hele bir de bilgisayarınızın garantisi devam ediyorsa bilgisayarı açarsanız garanti devre dışı kalacağından (Çoğu markada uygulanıyor) riske girmek istemeyip servise göndermeyi düşünebilirsiniz. Bu durumda da belki birkaç gün bilgisayarınızı kullanamayabilirsiniz. Bazı insanlar için bu bir  problem teşkil etmese de bizim gibi işini bilgisayar  üzerinden yürüten insanlar için sıkıntılar yaratmaktadır.
 
-Fusce non elit in diam rutrum vestibulum. Donec vitae elementum erat. Praesent elementum eget justo at bibendum. Fusce interdum diam lorem, ut placerat elit pretium quis. Quisque eu urna at quam commodo sagittis. Etiam posuere convallis tincidunt. Phasellus vitae ligula neque. Vivamus a purus at dolor iaculis placerat. Curabitur convallis eu lacus congue sagittis.
+Peki, bu durumda biz ne yapabiliriz ?
 
-Aliquam suscipit fermentum mauris a accumsan. In facilisis, mauris quis pulvinar tempus, turpis sapien sodales nibh, nec feugiat augue est quis nisi. Fusce eget odio feugiat, luctus quam et, dapibus nulla. Sed ornare lacus non libero lacinia pretium. In eu dui vitae purus euismod feugiat ac ac est. Morbi vitae pretium lorem, non eleifend felis. Nullam at massa feugiat, rutrum elit at, semper lacus. Etiam vel rutrum felis. Nullam quis auctor lorem, et tempor arcu.
+Öncelikle bilgisayarınıza bağlı ne kadar usb aygıt varsa çıkartın. (Yazıcı,fare,taşınabilir disk vb.)
+
+Daha sonra bilgisayarınızın şarj adaptörünü hem bilgisayardan hem de fişten çıkartın.
+
+Bir sonraki aşama da bilgisayarınızın elektrik bağlantısını kestikten sonra bataryayı yani pili çıkartın. Bilgisayarınızın altında pili çıkartmak için bir düğme benzeri parmağınızla sağa veya sola ittirebileceğiniz bir düzenek göreceksiniz bunu kullanarak pili çıkartın.
+
+
+Şimdi bilgisayarınızın power(Açma-Kapama) düğmesine 10-15 saniye kadar basın. Bu sayede  bilgisayarınızdaki elektrik yüklerini boşaltırsınız.
+
+10 dakika kadar hiçbir şey yapmadan bekleyin ve ardından bilgisayarınızın pilini takmadan şarj adaptörünüzü takarak bilgisayarın güç düğmesine basın. (Bu problemi yaşayanların %90 ‘ı ani elektrik yüklenmelerinden kaynaklı bir sorun yaşadığından probleminiz bu şekilde düzelecektir. )
+Eğer bilgisayarınız açıldıysa kapatın ve bilgisayarınızın pilini takın.
+Şarj adaptörünü tekrar takın ve 10 dakika kadar şarj olmasını bekleyin.
+Şimdi adaptörü çıkararak tekrar  bilgisayarınızı açmayı deneyin
+ 
+
+Eğer bu aşamalardan sonra bilgisayarınız açılıyorsa ani elektrik yüklerinden kaynaklı geçici bir  problem oluşmuştur, eğer pil takıldığında açılmıyor fakat pilsiz çalışıyorsa piliniz bozulmuş demektir.
