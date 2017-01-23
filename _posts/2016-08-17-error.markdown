@@ -1,0 +1,47 @@
+---
+title:  "C# – Hata Kontrolleri"
+subtitle: "Hatasız kul olmaz!"
+author: "Burak"
+avatar: "img/authors/wferr.png"
+image: "img/f.jpg"
+date:   2016-08-17 22:02:19
+---
+
+Hatalar, bildiğimiz gibi bazen girilen bir değerden bazen farklı bir nedenden dolayı oluşarak, programımızın çalışmasını engeller. Bizim yapmamız gereken kullanıcıların bu hatalardan etkilenmemesi adına mümkün olduğunca bu hataları kontrol edebilmek olacaktır. Örneğin; web sitelerinde çok sık karşılaştığımız bir hatadır; 404 hatası. Bu hata hepimizin bildiği gibi istenilen adresin bulunanamamasından kaynaklıdır ve yazılımcının bu hatanın alınmasını önlemek elinde değildir. Fakat bu hatayı kontrol etmek elimizdedir. Bu hata alındığında kullanıcıya "Aradığınız sayfayı bulamadık" tarzında bir bilgi vermek, ana sayfaya ya da geldiği sayfaya yönlendirmek, yeniden arama yapmasını istemek gibi işlemleri sunarak hata kontrolünü sağlamalıdır. Peki biz C# ta hataları nasıl kontrol edeceğiz? Bu arada C# ta nasıl kullanacağız derken bu hata kontrol mekanizmaları C++, Java vb. dillerde de bulunuyor fakat biz C#  kullanarak bu örnekleri yapacağız. 
+
+Hataları yakalayabilmek ve kontrol edebilmek adına Try-Catch yapısını kullanmamız gerekiyor. Bu yapıda Try bloğu içerisine hata oluşabilecek kod yazılırken, Catch bloğu içerisine aldığımız hatalara göre içerik üretiriz.
+
+Yukarıda görüldüğü gibi bir yapıda kullanılır. Try bloğu içerisinde kullanıcıdan integer bir değer girmesini istedik. Kullanıcı örneğin harf girmeye çalışırsa ekrana "Hatalı giriş yaptınız" yazısı çıkarılacaktır. Yine sayının integer değer aralığını aşması durumu gibi diğer tüm hatalarda da aynı hatayı alacağız.Çünkü yukarıda biz catch ifadesi ile herhangi bir hataya özel olarak değil, tüm hatalar için içerik ürettik. Peki hataya göre özelleştirilmiş mesajları nasıl yazacağız? Yani, sınır değerleri aşan bir değer girildiğinde bu durum için kullanıcıya şu değerler arasında bir giriş yapınız gibi bir uyarı verecekken eğer farklı tipte bir değer girilmeye çalışmışsa "lütfen, integer tipinde bir değer girin" gibi bir sonuç üretilmesini nasıl sağlayacağız? 
+
+Biz bu durumlar için Exception nesnesinden yararlanacağız. Çünkü hatalar, bu nesneden türetiliyor. Doğal olarak bizim aldığımız hata hangi sınıfa ait öğrenebilmek için de bu nesneden yararlanmamız lazım. Aşağıda yer alan ifade de gördüğünüz gibi exception nesnesini kullanarak hatayı yazdırdık. Burada int yerine string bir değer girdiğimizde exception metodu bize hata ile ilgili bilgiler sunacaktır. integer bir değer girmemiz gerekirken "f" değerini girdiğimizde aşağıda görüldüğü gibi bir hatayı bize getirecektir.
+
+Exception nesnesinin bazı özellikleri bulunuyor. Hataya dair tüm içeriği yazdırmaktansa sadece hata mesajını ya da hata kaynağını yazdırmak daha mantıklı gelebilir. Bu durumda aslında Console.WriteLine(ex.ToString()); yerine Console.WriteLine(ex.Message.ToString()); yazdığımızda sadece hata mesajı ekrana gelecektir. Yine exception nesnesinin Source, TargetSite,HelpLink, StackTrace,InnerException ve HResult gibi özellikleri bulunuyor. Bunlar da gerektikleri durumlarda kullanılabilir. 
+
+Bir diğer nokta ise Catch bloğunu birden fazla kullanabiliriz. İstediğimiz her farklı hata için farklı bir catch bloğunda hata içeriği oluşturabiliriz. 
+
+Gördüğünüz gibi OverFlowException hatası alındığında ayrı bir mesaj, FormatException hatasında ayrı bir mesaj görüntüledik.OverFlowException, taşma hatasıdır. Bildiğiniz üzere her veri tipinin belirli aralıklarda değer alabilmesi mümkündür. Eğer bu değerlerden büyük ya da küçük bir değer girilmeye çalışılırsa OverFlowException hatası alınacaktır. FormatException ise veri tipiyle alakalı hatadır. Eğer siz int tipinde bir değer girmeniz gerekirken double,bool ya da farklı bir tipte değer girerseniz bu hata ile karşılaşacaksınızdır. 
+
+Temelde bahsedebileceğim hatalar bunlarken bir çok farklı hata türü mevcuttur. Bu hataların hepsini burada anlatmak pek mümkün değil. Bu nedenle diğerlerini sizin bakmanız ve aklınıza takılan yerlerde benimle iletişime geçmeniz daha sağlıklı bir çözüm olacaktır. Eğer exception nesnesinde yer alan hatalara bakmak isterseniz buradan ulaşabilirsiniz. 
+
+### FINALLY:
+
+Finally ifadesi ise try-catch yapısında hata olsa da olmasa da çalışacak kod için kullanılır. 
+
+### THROW:
+
+Throw deyimi, exception nesnesinden kendi hata durumumuzu oluşturmamızı sağlar.
+
+Yukarıda görülen örnekte eğer girilen sayı değeri 1000'den büyükse taşma hatası meydana gelmesini sağladık.
+
+### EXCEPTION.DATA:
+
+Exception.Data, tanımlamış olduğumuz hataları koleksiyona atarak buradan ulaşmamız için kullanılan bir özelliktir. Bu özellik içerisinde stringInfo adında hatayla ilgili bilgi verebilir, intInfo ile hatanın hangi satırlarda bulunduğu gibi bilgileri tutabiliriz.DatetimeInfo, itarih ve saat bilgisini, ExtraInfo daha ayrıntılı bilgi verebilmemizi, MoreExtraInfo ise daha fazla bilgi vermemizi sağlamaktadır.
+
+Aşağıda yer alan örnekte kullanıcıdan 1 ile 1000 arasında bir sayı girmesini istedik. Kullanıcı eğer 1000 'den büyük bir değer girmeye çalışırsa throw ile overflowexception hatası almasını sağladık. catch bloğunda ise eğer aldığımız hata overflowexception ise exception.data özelliğini kullanarak hata hakkında bilgi verdik ve hatanın alındığı tarihi yine koleksiyona kaydettik. Ardından koleksiyonları anlattığım yazıda da yer verdiğim (buradan yazıya ulaşabilirsiniz) DictionaryEntry yapısını kullanrak değerleri ekrana yazdırdık. 
+
+
+Bir diğer değineceğimiz olay ise exception.filters. Bu özellik c# 6 ile gelen bir özellik. Yukarıdaki örnekte if bloğu ile yaptığımız filtreleme işlemini catch ifadesini yazarken de kullanabiliriz. Bu durumda catch bloğunu aşağıdaki şekilde düzenlediğimizde bize aynı sonucu üretecektir.
+
+Son olarak bahsedeceğim konu ise kendi programımız için özel bir hata üretmek istersek bunu nasıl yaepacağımıza bakarak bu yazımı sonlandıracağım. Öncelikle projemize bir class eklemeliyiz. Projemizin adına sağ tıklayıp add->Class diyerek ekleme yapabiliriz. Ardından, aşağıda yer verdiğim ilk ekran göörüntüsünde olduğu gibi sınıfımızın ApplicationException sınıfından kalıtım almasını sağlıyoruz. Böylelikle bu sınıfın özelliklerini kullanabileceğiz. Hemen altında ise bir metod oluşturuyoruz ve string olarak bir değer alıyoruz.  
+
+Diğer ekran görüntüsünde ise görüldüğü gibi oluşturduğumuz YeniException nesnesini çağırıyoruz ve hatayı yazdırıyoruz. Böylece kendi yazmış olduğumuz özel exceptionu da kullanmış olduk. 
