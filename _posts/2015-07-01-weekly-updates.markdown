@@ -1,19 +1,15 @@
 ---
 title:  "Weekly Updates"
-subtitle: "What we actually did"
+subtitle: "One Step at a Time"
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/g.jpg"
 date:   2015-04-20 12:12:12
 ---
 
-This is a set of posts containing weekly updates
-
 # Center for Child and Law
 
 _30th December at CCL, NLS Bangalore at around 11 AM._
-
-_Team members who were part of the meeting were Nayashree, Kriti and Ram._
 
 We introduced our project to Mr. Niranjan. The discussion went as follows:
 
@@ -37,7 +33,7 @@ a must.
 <br>
 <img src='img/i.jpg'>
 
-# Rules and prepared checklist questionnaire
+# Rules and Prepared Checklist Questionnaire
 
 _18th Jan_
 
