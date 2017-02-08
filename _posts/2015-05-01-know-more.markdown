@@ -3,7 +3,7 @@ title:  "Know More"
 subtitle: "Curiosity - one of the great secrets of happiness"
 author: "Wferr"
 avatar: "img/authors/wferr.png"
-image: "img/a.jpg"
+image: "img/f.jpg"
 date:   2015-04-20 12:12:12
 ---
 
