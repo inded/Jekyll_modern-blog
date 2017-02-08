@@ -58,7 +58,9 @@ _18th Jan 2017_
 19. Whether members brought the notice of PRI violation of RTE
 20. Have you (members) ever done a  need based assessment of school for the purpose of preparing development plans.
 
-# Meeting with an SDMC member (Mother of one of the kids at the school)
+# Meeting with an SDMC member
+
+## (Mother of one of the kids at the school)
 
 _1st Feb 2017_
 
