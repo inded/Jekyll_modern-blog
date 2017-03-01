@@ -5,3 +5,8 @@ keywords: Modern, Blogging, Fun
 author: APU
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
+collections:
+  all_pages:
+    output: true
+    permalink: /a/:title/
+
