@@ -362,3 +362,19 @@ a:focus {
 	-webkit-transform: scale(1)!important;
 	transform: scale(1)!important;
 }
+
+
+
+/* CUSTOM */
+.post_subtitle {
+	font-size: .95em;
+	line-height: 1;
+	margin: -1em 0 0;
+	color: #777778;
+  font-style: italic;
+}
+
+hr {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
