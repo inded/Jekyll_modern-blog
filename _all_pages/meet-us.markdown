@@ -2,7 +2,7 @@
 title:  "Meet Us"
 subtitle: "The pilots of the Project"
 image: "img/weekly_7.jpg"
-order: 61
+order: 20
 ---
 
 ## Kriti

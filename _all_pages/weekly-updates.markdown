@@ -2,7 +2,7 @@
 title:  "Weekly Updates"
 subtitle: "One Step at a Time"
 image: "img/g.jpg"
-order: 21
+order: 60
 ---
 
 {% for post in site.posts reversed %}
