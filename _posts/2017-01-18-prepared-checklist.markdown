@@ -1,7 +1,7 @@
 ---
 title:  "Rules and Prepared Checklist Questionnaire"
 ---
-Conditions which are required by Rules(laws) for a functional SDMC in a school:
+Conditions which are required by Rules (Right To Education) for a functional SDMC in a school:
 
 ### Formation Requirements
 
