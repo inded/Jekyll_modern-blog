@@ -13,19 +13,16 @@ _30th December 2016, at CCL, NLS Bangalore at around 11 AM._
 
 We introduced our project to Mr. Niranjan. The discussion went as follows:
 
-1. He said that we should rather do a case study of these two schools we have choosen for the field project.
-2. The case study will involve us creating a checklist of things which shoud be present in SDMC as per the Act.
-Then analysing the gap between law and implementation.
-3. For understanding the gap, we have to interview and chit-chat with SDMC members.
-4. We propose that we should create a modle SDMC in the two schools we have selected for that he suggested we need
-creat a strong link between panchyat and SDMC.
-5. We have also concluded that the permisssion from BO with a letter from college(for that we will need your  help. is
-a must.
-6. The tentative next step will be the one awareness program for each schools.
-7. We asked for good functioning SDMC schools, he then invited us to visit SDMCs at Ramnagar Schools
-8. We were also told about CCL office in Bidadi which is engaged in SDMC project which we plan to visit after our initial study.
-9. To gather information on SDMC and related laws, we were informed by Sir to look at Karnataka Right of Children to Free and Compulsory Education Rules, 2009.
-10. At the end of our conversation, we generally discussed on the State of SDMCs and importance in improving public Education.
+1. Mr. Niranjan said that we should do a case study of the school we have chosen for the field project.
+1. The case study will involve creation of a checklist of things that should be present in the School Development Monitoring Committee (SDMC) as per the Right to Education Act. We will then analyze the gap between law and implementation.
+1. For understanding this gap, we will interview and have a discussion with various SDMC members.
+1. We propose that we should create a model SDMC in the school we have selected. Mr. Niranjan mentioned that to achieve this, we should create a strong link between the Panchayat and the SDMC.
+1. We will also be requiring a permission letter from the BO of the village. This will require a letter from APU.
+1. The tentative next step will be one awareness program for the school.
+1. We asked Mr. Niranjan for examples of schools with a well-functioning SDMC. He invited us to visit the SDMCs at Ranmagar Schools.
+1. We were also informed about the CCL office in Bidadi which is engaged in the SDMC project. We plan to visit this office after our initial study.
+1. To gather information on SDMC and related laws, we were informed by Mr. Niranjan to look at the Karnataka Right of Children to Free and Compulsory Education Rules, 2009.
+1. Nearing the end of our conversation, we generally discussed the state of SDMCs and their importance in improving public education.
 
 <img src='img/weekly_1.jpg'>
 <br>
@@ -37,26 +34,27 @@ a must.
 
 _18th Jan 2017_
 
-1. Regular meetings of SDMC members
-2. Maintaining of the SDMC record.
-3. Whether SDMC meetings take place ones in a month?  Whether minutes of meetings are maintained?
-4. Any School development plan has been drawn?
-5. Whether there are mentally or physically disabled child in school, if any, what facilities are being provided to him or her?
-6. Annual account of receipts and expenditure
-7. School development plan
-8. What was the method adopted in electing the members?
-9. When was the last election held? Or Are SDMC elections conducted every three years?
-10. Are there 16 elected members?
-11. Does SDMC represent all social group in the community- SCs/STs/ Minorities?
-12. Does SDMC represent health worker and anganwadi worker?
-13. Does SDMC represent philanthropic or educationalist from locality?
-14. How many women members are there in this SDMC?
-15. Who is the Chairman and Vice-Chairman? What was the mode of election?
-16. Whether SDMC members ever tried to communicate the rights of children and duties of the PRI, teachers and parents.
-17. Have you ( SDMC members) ever received any complaints from teachers and what was your response to them and how did you resolve the issues?
-18. Whether any enrollment drives was conducted by SDMC? And what were they?
-19. Whether members brought the notice of PRI violation of RTE
-20. Have you (members) ever done a  need based assessment of school for the purpose of preparing development plans.
+This is a list of questions we plan to ask the SDMC and its members:
+
+1. Regular meetings of SDMC members.
+1. Maintaining of the SDMC record.
+1. Whether SDMC meetings take place once in a month?  Whether minutes of meetings are maintained?
+1. Whether any school development plan has been drawn? If so, details of the plan.
+1. Whether there are mentally or physically disabled children in school. If there are, what facilities are being provided to them?
+1. Annual account of receipts and expenditure.
+1. What was the method adopted in electing the members?
+1. When was the last election held? Are SDMC elections conducted every three years?
+1. Who is the Chairman and Vice-Chairman? What was the mode of election?
+1. Are there 16 elected members?
+1. Does SDMC represent all social group in the community: SCs/STs/ Minorities?
+1. Does SDMC have representation in the form of a health worker and an anganwadi worker?
+1. Does SDMC have representation from philanthropists or educationalists in the locality?
+1. How many women members are there in this SDMC?
+1. Whether the SDMC members have ever tried to communicate the rights of children and duties of the PRI, the teachers and the parents.
+1. Have the SDMC members ever received any complaints from teachers? If yes, what was their response to the complaints and how were the issues resolved?
+1. Whether any enrollment drives was conducted by SDMC? And what were they?
+1. Whether the members brought notice of any PRI violation of RTE?
+1. Have the members ever done a need-based assessment of the school for the purpose of preparing development plans?
 
 # Meeting with an SDMC member
 
@@ -64,13 +62,13 @@ _18th Jan 2017_
 
 _1st Feb 2017_
 
-The meeting was planned because she is a SDMC member of one of the schools we are working at. That’s another story that she was not aware that she was one!!
+We had a meeting with the mother of Laxmi (a student in the school we were working at). The mother is an SDMC member, however, surprisingly, she wasn't even aware thta she was one.
 
-She was hesitant to meet because she thought that being an illiterate female she is just not the right person to meet. There were lot of navigation problems as she wasn’t able to guide us properly to her home. After crossing all the barriers, we finally managed to see her!
+She was hesitant to meet with us because she thought that she is not the right person for us to meet because she was an illiterate female. We faced a few navigation issues because she was unable to guide us to her house with ease. Eventually, we were able to visit her at her house and have a peaceful discussion.
 
-Their house was only a small little room, which was her bedroom and her kitchen and her puja room and her dressing. Once she met us, she seemed relaxed to talk and opened up quite a bit. She appeared to be warm and loving, she even offered us to stay back to have dinner which she was going to make.
+Their house was a small room, which was lovingly, neatly kept, despite  it being used as a bedroom, kitchen and puja room. Once she met us, she seemed relaxed, willing to talk, and opened up quite a bit. She appeared to be warm and loving, she even asked us to stay back and invited us to have dinner with her and her family.
 
-She said she did not know that she was a SDMC member. But she is ready to go to the meeting if it benefits her kid; she wants her to become a doctor. She said that she is worried that her child has to sit on roads to have her food and doesn’t get the milk which she is suppose to get.
+She said she did not know that she was a SDMC member, but she is more than willing to go to the meeting if it benefits her kid. She wants Laxmi to become a doctor. She said that she is worried that her child has to sit on roads to have her food and that she doesn’t get the milk which she is supposed to get under the Mid-day Meals Scheme.
 
 <img src='img/weekly_4.jpg'>
 <br>
