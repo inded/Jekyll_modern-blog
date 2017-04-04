@@ -28,7 +28,7 @@ layout: compress
 <body class="body">
 <div class="container">
     <header class="header">
-        <h1>Modern Blog<span>A Clean, Fresh Minimal Look.</span></h1>
+        <h1>{{ site.title }}<span>{{ site.description }}</span></h1>
         <nav class="links">
             <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
             <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
@@ -41,7 +41,8 @@ layout: compress
         <div class="pattern pattern--hidden"></div>
         <!-- cards -->
         <div class="wrapper">
-            {% for post in site.posts %}
+            {% assign all_pages = site.all_pages | sort: 'order' %}
+            {% for post in all_pages %}
             <div class="card" data-id="{{ post.id }}">
                 <div class="card__container card__container--closed">
                     <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +53,7 @@ layout: compress
                                 <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
                             </clipPath>
                         </defs>
-                        <image clip-path="url(#{{ post.id }}-clip-path)" width="1920" height="1200"
+                        <image clip-path="url(#{{ post.id }}-clip-path)" width="1585" height="1200" x="166" preserveAspectRatio="none"
                                xlink:href="{{ post.image }}"></image>
                     </svg>
                     <div class="card__content">
@@ -62,11 +63,11 @@ layout: compress
                             <p class="card__subtitle">{{ post.subtitle }}</p>
                         </div>
                         <div class="card__copy">
-                            <div class="meta">
+                            <!--<div class="meta">
                                 <img class="meta__avatar" src="{{ post.avatar }}"/>
                                 <span class="meta__author">{{ post.author }}</span>
                                 <span class="meta__date">{{ post.date | date: "%Y-%m-%d" }}</span>
-                            </div>
+                            </div>-->
                             {{ post.content }}
                         </div>
                     </div>

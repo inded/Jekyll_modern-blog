@@ -50,10 +50,15 @@
 	width: 100%;
 	max-width: 800px;
 	height: auto;
-	margin: 400px auto 60px;
+	margin: 250px auto 60px;
 	padding: 30px 40px 22px;
 	background: #fff;
 }
+
+.card__content img {
+  max-width: 100%;
+}
+
 
 .card__container--closed .card__content {
 	margin-top: 0;
@@ -76,6 +81,7 @@
 	-webkit-transform: translateY(-100%);
 	-ms-transform: translateY(-100%);
 	transform: translateY(-100%);
+  background-color: rgba(0,0,0,0.6);
 }
 
 .card__title {
@@ -109,7 +115,7 @@
 }
 
 .card__copy p:first-of-type {
-	font-size: 1.5em;
+	/*font-size: 1.5em;*/
 	padding: 0 0 1em 0;
 }
 
@@ -355,4 +361,20 @@ a:focus {
 .ff .polygon {
 	-webkit-transform: scale(1)!important;
 	transform: scale(1)!important;
+}
+
+
+
+/* CUSTOM */
+.post_subtitle {
+	font-size: .95em;
+	line-height: 1;
+	margin: -1em 0 0;
+	color: #777778;
+  font-style: italic;
+}
+
+hr {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
