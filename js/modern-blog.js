@@ -291,6 +291,19 @@ var demo = (function (window) {
     };
 
     var _bindHashChange = function () {
+        // Workaround for event.newURL and event.oldURL for Internet Explorer
+        // source: https://developer.mozilla.org/en/docs/Web/API/WindowEventHandlers/onhashchange
+        //let this snippet run before your hashchange event binding code
+        if(!window.HashChangeEvent)(function(){
+            var lastURL=document.URL;
+            window.addEventListener("hashchange",function(event){
+                Object.defineProperty(event,"oldURL",{enumerable:true,configurable:true,value:lastURL});
+                Object.defineProperty(event,"newURL",{enumerable:true,configurable:true,value:document.URL});
+                lastURL=document.URL;
+            });
+        }());
+
+
         window.addEventListener('hashchange', function (e) {
             var newHash = _getHashFromURL(e.newURL);
             var oldHash = _getHashFromURL(e.oldURL);
