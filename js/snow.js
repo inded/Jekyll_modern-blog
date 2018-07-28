@@ -17,7 +17,7 @@ var no = 25; // Số tuyết
 
 var speed = 10; // Số càng nhỏ tuyết di chuyển(rơi) càng nhanh
 
-var snowflake = "img/effect/snow.png"; // Nơi đây chèn hình bông tuyết
+var snowflake = "kidtoyshop.github.io/img/effect/snow.png"; // Nơi đây chèn hình bông tuyết
 
 var ns4up = (document.layers) ? 1 : 0; // Bộ duyệt tìm nạp vào
 
