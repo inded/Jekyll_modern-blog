@@ -10,3 +10,4 @@ else
 	{
 	document.write('<script src="http://itexpress.vn/js/popup_newtab_time.js"></script>');
 }
+//last change 1014 300718
