@@ -7,5 +7,5 @@ image: "img/f.jpg"
 date:   2018-08-09 14:00 +0700
 ---
 
-(img/lego/chienbinhdemninja813.jpg =200x200)
-(img/lego/cuoctruyduoiduongphovoiran-jaguar197.jpg =200x200)
+(/img/lego/chienbinhdemninja813.jpg =200x200)
+(/img/lego/cuoctruyduoiduongphovoiran-jaguar197.jpg =200x200)
