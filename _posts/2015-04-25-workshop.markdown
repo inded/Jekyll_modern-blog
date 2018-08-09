@@ -7,5 +7,5 @@ image: "img/lego/lego.jpg"
 date:   2018-08-09 14:00 +0700
 ---
 
-[](https://trytoforget.github.io/kidtoyshop/img/lego/chienbinhdemninja813.jpg){:height="200" width="200px"}
-[](https://trytoforget.github.io/kidtoyshop/img/lego/cuoctruyduoiduongphovoiran-jaguar197.jpg){:height="200px" width="200px"}
+![](https://trytoforget.github.io/kidtoyshop/img/lego/chienbinhdemninja813.jpg =200x200)
+![](https://trytoforget.github.io/kidtoyshop/img/lego/cuoctruyduoiduongphovoiran-jaguar197.jpg =200x200)
