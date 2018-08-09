@@ -48,11 +48,12 @@
 .card__content {
 	position: relative;
 	width: 100%;
-	max-width: 800px;
+	max-width: 1200px;
 	height: auto;
-	margin: 400px auto 60px;
+	margin: 200px auto 60px;
 	padding: 30px 40px 22px;
-	background: #fff;
+	background: #90e2bc;
+		   /*#fff*/
 }
 
 .card__container--closed .card__content {
@@ -63,8 +64,8 @@
 }
 
 .card__caption {
-	font-size: 2em;
-	max-width: 800px;
+	font-size: 18px; /*2em*/
+	max-width: 1200px; /*800*/
 	margin: 0 auto;
 	padding: 35px 30px 0px;
 }
