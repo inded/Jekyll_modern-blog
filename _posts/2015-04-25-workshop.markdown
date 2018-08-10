@@ -4,8 +4,13 @@ subtitle: "Đồ chơi trí tuệ"
 author: "Kid toy Shop"
 avatar: "img/icon.ico"
 image: "img/lego/lego.jpg"
+layout: post
+category: posts
+customjs:
+ - https://trytoforget.github.io/kidtoyshop/js/Magnifier.js
 date:   2018-08-09 14:00 +0700
 ---
-<img src="https://trytoforget.github.io/kidtoyshop/img/lego/doikhaithackhoangsan435.jpg" alt="doikhaithackhoangsan" width="200" height="200"><img src="https://trytoforget.github.io/kidtoyshop/img/lego/chienbinhdemninja813.jpg" alt="chienbinhdem" width="200" height="200"><img src="https://trytoforget.github.io/kidtoyshop/img/lego/cuoctruyduoiduongphovoiran-jaguar197.jpg" alt="Truy đuổi đường phố" width="200" height="200">
-doikhaithackhoangsan    chienbinhdem   cuoctruyduoiduongpho
+<img src="https://trytoforget.github.io/kidtoyshop/img/lego/doikhaithackhoangsan435.jpg" alt="doikhaithackhoangsan" width="200" height="200">
+<img src="https://trytoforget.github.io/kidtoyshop/img/lego/chienbinhdemninja813.jpg" alt="chienbinhdem" width="200" height="200">
+<img src="https://trytoforget.github.io/kidtoyshop/img/lego/cuoctruyduoiduongphovoiran-jaguar197.jpg" alt="Truy đuổi đường phố" width="200" height="200">
 
