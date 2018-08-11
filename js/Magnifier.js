@@ -1,3 +1,25 @@
+/**
+* Magnifier.js is a Javascript library enabling magnifying glass effect on an images.
+*
+* Features
+*
+* Zoom in / out functionality using mouse wheel
+* Setting options via Javascript or data attributes
+* Magnified image can be displayed in the lens itself or outside of it in a wrapper
+* Attachment to multiple images with single call
+* Attachment of user defined functions for thumbnail entering, moving and leaving and image zooming events
+* Display loading text while the large image is being loaded, and switch to lens once its loaded
+*
+* Magnifier.js uses Event.js as a cross-browser event handling wrapper, which is available at
+* Github and JSClasses.org:
+*
+* Github - https://github.com/mark-rolich/Event.js
+* JS Classes - http://www.jsclasses.org/package/212-JavaScript-Handle-events-in-a-browser-independent-manner.html
+*
+* Works in Chrome, Firefox, Safari, IE 7, 8, 9 & 10.
+*
+* @author Mark Rolich <mark.rolich@gmail.com>
+*/
 var Magnifier = function (evt, options) {
     "use strict";
 
@@ -17,8 +39,6 @@ var Magnifier = function (evt, options) {
             largeL: 0,
             largeT: 0,
             zoom: 2,
-            zoomMin: 1.1,
-            zoomMax: 5,
             mode: 'outside',
             largeWrapperId: (gOptions.largeWrapper !== undefined)
                 ? (gOptions.largeWrapper.id || null)
@@ -55,12 +75,6 @@ var Magnifier = function (evt, options) {
         gZoom = (gOptions.zoom !== undefined)
                     ? gOptions.zoom
                     : curData.zoom,
-        gZoomMin = (gOptions.zoomMin !== undefined)
-                    ? gOptions.zoomMin
-                    : curData.zoomMin,
-        gZoomMax = (gOptions.zoomMax !== undefined)
-                    ? gOptions.zoomMax
-                    : curData.zoomMax,
         gMode = gOptions.mode || curData.mode,
         data = {},
         inBounds = false,
@@ -229,9 +243,7 @@ var Magnifier = function (evt, options) {
 
             curData.zoom = Math.round((curData.zoom + delta) * 10) / 10;
 
-            if (curData.zoom >= curData.zoomMax) {
-                curData.zoom = curData.zoomMax;
-            } else if (curData.zoom >= curData.zoomMin) {
+            if (curData.zoom >= 1.1) {
                 curData.lensW = Math.round(curData.w / curData.zoom);
                 curData.lensH = Math.round(curData.h / curData.zoom);
 
@@ -262,8 +274,9 @@ var Magnifier = function (evt, options) {
                         h: curData.lensH
                     });
                 }
+
             } else {
-                curData.zoom = curData.zoomMin;
+                curData.zoom = 1.1;
             }
         },
         onThumbEnter = function () {
@@ -425,8 +438,6 @@ var Magnifier = function (evt, options) {
                 $('#' + curData.largeWrapperId)
             ),
             zoom = options.zoom || thumb.getAttribute('data-zoom') || gZoom,
-            zoomMin = options.zoomMin || thumb.getAttribute('data-zoom-min') || gZoomMin,
-            zoomMax = options.zoomMax || thumb.getAttribute('data-zoom-max') || gZoomMax,
             mode = options.mode || thumb.getAttribute('data-mode') || gMode,
             onthumbenter = (options.onthumbenter !== undefined)
                         ? options.onthumbenter
@@ -474,8 +485,6 @@ var Magnifier = function (evt, options) {
 
         data[idx] = {
             zoom: zoom,
-            zoomMin: zoomMin,
-            zoomMax: zoomMax,
             mode: mode,
             zoomable: zoomable,
             thumbCssClass: thumb.className,
