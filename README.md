@@ -1,4 +1,4 @@
-# Jekyll Modern Blog
+# Subwai Blog
 
 A Simple, Clean and responsive modern blog for jekyll.
 
