@@ -1,7 +1,7 @@
 # Site settings
-title: Siner's Blog
-description: Backend Developer / Hardstyle DJ
-keywords: Developer, Backend, DevOps, Hardstyle, DJ, EDM
-author: Siner (Jeong Hyun An)
+title: "Siner's Blog"
+description: "Backend Developer / Hardstyle DJ"
+keywords: "Developer, Backend, DevOps, Hardstyle, DJ, EDM"
+author: "Siner (Jeong Hyun An)"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://siner308.github.io" # the base hostname & protocol for your site
