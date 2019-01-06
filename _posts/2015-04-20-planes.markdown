@@ -1,8 +1,8 @@
 ---
 title:  "Planes are cool!"
 subtitle: "The Fly!"
-author: "Wferr"
-avatar: "img/authors/wferr.png"
+author: "siner"
+avatar: "img/authors/siner.jpeg"
 image: "img/a.jpg"
 date:   2015-04-20 12:12:12
 ---
