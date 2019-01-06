@@ -1,3 +1,11 @@
+---
+title:  "Start Django (1)"
+subtitle: "with virtualenv"
+author: "Siner"
+avatar: "img/authors/siner.png"
+image: "img/django-virtualenv.jpg"
+date:   2019-01-06 21:57:00
+---
 Django 프로젝트를 시작할때 필요한건 2가지이다.
 
 Django를 실행할 가상환경.
