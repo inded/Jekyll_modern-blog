@@ -1,7 +1,7 @@
 ---
 title:  "Planes are cool!"
 subtitle: "The Fly!"
-author: "siner"
+author: "Siner"
 avatar: "img/authors/siner.jpeg"
 image: "img/a.jpg"
 date:   2015-04-20 12:12:12
