@@ -1,9 +1,9 @@
 ---
-title:  "Nobody else was around."
-subtitle: "A Beautiful shot during the night."
-author: "Wferr"
-avatar: "img/authors/wferr.png"
-image: "img/b.jpg"
+title:  "Weddings,Birthdays."
+subtitle: "The best pastries of Puerto Rico for your parties."
+author: "Sara's Quesitos"
+avatar: "img/authors/logo.jpg"
+image: "img/header-image.jpg"
 date:   2015-04-21 12:12:12
 ---
 

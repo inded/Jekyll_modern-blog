@@ -1,9 +1,9 @@
 ---
-title:  "Planes are cool!"
-subtitle: "The Fly!"
-author: "Wferr"
-avatar: "img/authors/wferr.png"
-image: "img/a.jpg"
+title:  "About Me!"
+subtitle: "Profesional Baker!"
+author: "Sara's Quesitos LLC"
+avatar: "img/authors/logo.jpg"
+image: "img/aboutme.jpg"
 date:   2015-04-20 12:12:12
 ---
 

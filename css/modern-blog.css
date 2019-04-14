@@ -93,7 +93,7 @@
 	font-size: .95em;
 	line-height: 1;
 	margin: 5px 0 0;
-	color: #777778;
+	color: Black;
 }
 
 .card__container--closed .card__subtitle {
@@ -247,7 +247,7 @@ a:focus {
 }
 
 .body .header h1 span {
-	color: #4f4c4c;
+	color: black;
 }
 
 .hidden {
