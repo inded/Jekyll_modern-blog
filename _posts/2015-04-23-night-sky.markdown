@@ -1,7 +1,6 @@
 ---
 title:  "Contact Me"
 subtitle: "Make Your Order"
-author: "Sara's Quesitos LLC"
 avatar: "img/authors/logo.jpg"
 image: "img/contact.jpg"
 date:   2015-04-23 12:12:12

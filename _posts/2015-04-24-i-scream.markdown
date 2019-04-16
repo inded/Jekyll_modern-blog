@@ -1,7 +1,6 @@
 ---
 title:  "Pastries"
 subtitle: "The best pastries forever"
-author: "Sara's quesitos LLC"
 avatar: "img/authors/logo.jpg"
 image: "img/pastries.jpg"
 date:   2015-04-24 12:12:12

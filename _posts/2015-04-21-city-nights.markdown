@@ -1,7 +1,6 @@
 ---
 title:  "Weddings,Birthdays."
 subtitle: "The best pastries of Puerto Rico for your parties."
-author: "Sara's Quesitos"
 avatar: "img/authors/logo.jpg"
 image: "img/header-image.jpg"
 date:   2015-04-21 12:12:12
