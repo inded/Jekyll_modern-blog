@@ -6,7 +6,7 @@ image: "img/pastries.jpg"
 date:   2015-04-24 12:12:12
 ---
 
-### Diferentes Dulces Puertorriquenos?
+### Pastries?
 
 
   1-Quesitos:
