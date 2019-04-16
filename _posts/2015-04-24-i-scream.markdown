@@ -6,8 +6,7 @@ image: "img/pastries.jpg"
 date:   2015-04-24 12:12:12
 ---
 
-### Pastries?
-
+### Type of pastries?
 
   1-Quesitos:
    -Almendras.
