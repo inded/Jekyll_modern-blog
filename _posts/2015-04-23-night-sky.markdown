@@ -1,6 +1,6 @@
 ---
 title:  "Presentation"
-subtitle: "Make Your Order"
+subtitle: "Professional baker"
 avatar: "img/authors/logo.jpg"
 image: "img/contact.jpg"
 date:   2015-04-23 12:12:12
