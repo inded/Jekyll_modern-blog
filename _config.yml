@@ -5,3 +5,7 @@ keywords: Modern, Blogging, Fun
 author: Sara's Quesitos LLC
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
+
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir: sass/_scss
