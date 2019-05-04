@@ -173,6 +173,7 @@ var Card = (function (window) {
             clearProps: 'all',
             className: '-=' + CLASSES.containerClosed,
             onUpdate: callback.bind(this, track),
+
             // Fix IE: if the image is set to fixed when CLASSES.containerClosed
             // is removed IE doesn't follow the tween, fix by setting
             // the image position to fixed when tween is completed.
