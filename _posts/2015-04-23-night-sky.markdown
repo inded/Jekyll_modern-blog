@@ -1,13 +1,8 @@
 ---
 title:  "Presentation"
 subtitle: "Professional baker"
-avatar: "img/authors/logo.jpg"
 image: "img/mazorca.jpg"
-date:   2015-04-23 12:12:12
 ---
-
-### Gracias por su apoyo:
- Para poder ordenar su orden debera ser con 48 horas de anticipacion. Una vez la orden llege a mi la orden estara lista en un periodo de 8 horas. Me pueden contactar por cualquiera de las redes sociales o por telefono. Una de los siguientes pasos que quiere dar la compania de Sara's Quesitos LLC es que todo los pedidos y pagos, sean atravez de esta pagina de internet. Pero le pido un poco de paciencia y perseverancia ya que esto llevara un poco de tiempo.
 
 ### Thanks for your support:
  To be able to order your order you must be 48 hours in advance. Once the order arrives to me the order will be ready in a period of 8 hours. You can contact me through any of the social networks or by phone. One of the next steps that the company of Sara's Quesitos LLC wants to give is that all orders and payments are made through this website. But I ask a little patience and perseverance because this will take a little time.
