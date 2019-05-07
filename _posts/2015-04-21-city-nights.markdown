@@ -1,6 +1,6 @@
 ---
 title:  "Pastries."
-subtitle: "Give 100% for what you're passionate about."
+subtitle: ""
 image: "img/lll.jpg"
 ---
 

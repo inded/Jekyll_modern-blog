@@ -1,6 +1,6 @@
 ---
-title:  "Presentation"
-subtitle: "Professional baker"
+title:  "Professional baker"
+subtitle: ""
 image: "img/mazorca.jpg"
 ---
 
