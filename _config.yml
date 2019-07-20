@@ -1,7 +1,7 @@
 # Site settings
-title: Modern Blog
-description: Modern-Blog A Elegant template for Jekyll
+title: Rolycoaster
+description: A Blog To Keep Track
 keywords: Modern, Blogging, Fun
-author: Wferr
+author: Rolycoaster
 baseurl: "/rolycoaster" # the subpath of your site, e.g. /blog/
-url: "rolycoaster.com" # the base hostname & protocol for your site
+url: "https://rolycoaster.com" # the base hostname & protocol for your site
