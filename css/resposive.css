@@ -9,27 +9,22 @@
  border: 2px solid;
  background-color: pink;
  align-content: center;
- font-style: normal;
- font-weight: normal;
- speak: none;
- display: inline-block;
  text-decoration: inherit;
  margin-right: .2em;
  display: table;
- font-variant: normal;
- text-transform: none
+ /* FIXME:  */
 
 }
 
 #contact-us form input {
   border: 2px solid;
-  width: 700px;
+  width: 715px;
   height: 45px;
   padding: 10 15 15 10;
 }
 
 #contact-us form select option {
-  width: 650px;
+  width: 100px;
   padding: 10 10 10 10;
   text-decoration: inherit;
   ;
@@ -43,7 +38,7 @@
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
-  
+
 }
 
 /*--
