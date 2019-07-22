@@ -21,6 +21,7 @@ Today was one of my last medical appointments, *or so I thought*, as I just got 
 Now the obvious question…
 
 ###So, What’s Wrong With You?
+
 No one actually knows! We got my medical release but the doctor *insisted* on inserting that “yeah she’s not contagious but she’s fat and has high cholesterol” (but in doctor speak). I told her they didn’t ask what I do have for the release, just making sure I **DON’T** have whatever contagious diseases they mentioned in the paper, but whatever, it was already signed, and its not like i’m not fat and cholesterolic, so fine. I just took it and was referred to the endocrinologist because after all the questions, it seems like I should be losing weight, I’m just not.
 
 It’s been super frustrating and has led me to a few cheat meals since “eh, i’m just going to gain it anyway, might as well enjoy it”. It’s a bad attitude, I know, but sometimes it’s the only thing that makes the day okay. Most of the time I can limit it to a snack or a meal, but I try really hard not to let it be a whole day. This isn’t my diet blog, however, so I’ll just limit it to that.
