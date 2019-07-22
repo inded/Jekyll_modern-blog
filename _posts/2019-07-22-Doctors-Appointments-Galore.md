@@ -3,7 +3,7 @@ title:  "Doctors Appointments Galore"
 subtitle: "What’s Wrong With Me Though?"
 author: "Rolycoaster"
 avatar: "img/authors/rolycoaster.png"
-image: "img/doctorsteth.jpg"
+image: "img/postimg/doctorsteth.jpg"
 date:   2019-07-22
 tags: Doctors, Tests, Visa
 ---
