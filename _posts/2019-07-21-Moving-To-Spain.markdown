@@ -5,6 +5,7 @@ author: "Rolycoaster"
 avatar: "img/authors/rolycoaster.png"
 image: "img/a.jpg"
 date:   2019-07-21
+tags: Spain, Moving, Auxiliar de Conversacion
 ---
 
 ### Applying last minute
