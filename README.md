@@ -1,8 +1,12 @@
-# Saras Quesitos LLC
+# Jekyll Modern Blog
 
- Restaurant page for jekyll.
+A Simple, Clean and responsive modern blog for jekyll.
 
-## [Live](https://sarasquesitos.com)
+## [Live Demo](http://inded.github.io/Jekyll_modern-blog/)
+
+## Attributions
+Based off of this [article from Codrops](http://tympanus.net/codrops/?p=24222)
+Using Sample images from [Fancy Crave](http://fancycrave.com/)
 
 ## License
 
