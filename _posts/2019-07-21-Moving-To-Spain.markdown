@@ -3,7 +3,7 @@ title:  "Moving to Spain"
 subtitle: "Auxiliar de Conversacion"
 author: "Rolycoaster"
 avatar: "img/authors/rolycoaster.png"
-image: "img/a.jpg"
+image: "img/postimg/airplane.jpg"
 date:   2019-07-21
 tags: Spain, Moving, Auxiliar de Conversacion
 ---
