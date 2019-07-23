@@ -3,7 +3,7 @@ title: "Placeholder"
 subtitle: "blurb"
 author: "Rolynda"
 avatar: "img/authors/rolynda.png"
-image: img/rolycoastericon.jpg
+image: "img/postimg/unsplash-stories.jpg"
 date: 2019-07-20 
 tags: [Blog, Travel]
 ---
