@@ -1,7 +1,7 @@
 # Site settings
-title: Rolycoaster
-description: A Blog To Keep Track
-keywords: Modern, Blogging, Fun
-author: Rolycoaster
-baseurl: "/rolycoaster" # the subpath of your site, e.g. /blog/
-url: "https://rolycoaster.com" # the base hostname & protocol for your site
+title: Rolynda
+description: Short Stories
+keywords: Short stories, writing, memoirs
+author: Rolynda
+baseurl: "/rolynda" # the subpath of your site, e.g. /blog/
+url: "https://rolynda.com" # the base hostname & protocol for your site
