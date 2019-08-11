@@ -1,19 +1,13 @@
-/*--
-    contact-us Start
---*/
-
 
 #contact-us form {
+
  width: 720px;
- padding: 10px;
+ padding: 10;
  border: 2px solid;
  background-color: pink;
- align-content: center;
  text-decoration: inherit;
  margin-right: .2em;
  display: table;
- /* FIXME:  */
-
 }
 
 #contact-us form input {
