@@ -2,8 +2,9 @@
 title:  "Events"
 subtitle: ""
 image: "img/newbusiness1.jpg"
+permalink: 'events'
 ---
 
 ### Specials Events:
 
-  All types of events like weddings,Birthdays,Sweet Sixteen and More.
+All types of events like weddings,Birthdays,Sweet Sixteen and More.

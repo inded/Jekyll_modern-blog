@@ -2,6 +2,7 @@
 title:  "Bakery Menu"
 subtitle: ""
 image: "img/pastelillos.jpg"
+permalink: 'bakery-menu'
 ---
 
 ## Type of pastries?

@@ -12,32 +12,35 @@ layout: compress
     <meta name="keywords" content="{{ site.keywords }}"/>
     <meta name="author" content="{{ site.author }}"/>
     <link rel="shortcut icon" href="img/Favicon.ico"/>
-    <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css"/>
     <link rel="stylesheet" type="text/css" href="css/modern-blog.css"/>
-    <link rel="stylesheet" type="text/css" href="css/index.css"/>
-  <link rel="stylesheet" type="text/css" href="css/resposive.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.scss"/>
+
+    <link rel="stylesheet" type="text/css" href="{{'css/resposive.css' | absolute_url}}"/>
 
     <!--[if IE]>
     <script type="text/javascript" src="js/vendors/html5.min.js"></script>
     <![endif]-->
     <script>
-        if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
-            var root = document.getElementsByTagName('html')[0];
-            root.setAttribute('class', 'ff');
-        }
-    </script>
+    if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+  var root = document.getElementsByTagName('html')[0];
+  root.setAttribute('class', 'ff');
+}
+</script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140026956-1"></script>
    <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
+   window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag('js', new Date());
 
-     gtag('config', 'UA-140026956-1');
-   </script>
+gtag('config', 'UA-140026956-1');
+</script>
 
 </head>
 <body class="body">
@@ -45,7 +48,6 @@ layout: compress
     <header class="header">
         <h1>Sara's Quesitos LLC<span>The Best Pastries of Metroplex</span></h1>
 
-        </nav>
     </header>
     <div class="content">
         <!-- trianglify pattern container -->
@@ -97,49 +99,14 @@ layout: compress
 
 
 
-  <center>
+  <div>
    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com/Saras-Quesitos-LLC-828540993858203/reviews/?ref=page...%2F&amp;tabs=timeline&amp;width=280&amp;height=460&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=false&amp;appId"
     style="border:solid" scrolling="si" allowtransparency="true" allow="encrypted-media" width="280" height="460" frameborder="0"></iframe>
 
      <nav class="links">
       <a href="https://twitter.com/sarasquesitos?lang=en"><i class="fa fa-twitter-square fa-3x"></i></a>
       <a href="https://www.instagram.com/sarasquesitosllc/"><i class="fa fa-instagram fa-3x"></i></a>
-
-      <!--
-         CONTACT US  start
-         ============================= -->
-         <center>
-         <section id="contact-us">
-         <h3>MakeYour Order</h3>
-      <form action="https://formspree.io/josue.rosario8@gmail.com" method="POST">
-          <label>Pastries:</label>
-        <select name="Pastries" required>
-          <option value="Quesitos">Quesitos</option>
-          <option value="Tornillos">Tornillos</option>
-          <option value="Pastelillos de Guayaba">Pastelillos de Guayaba</option>
-          <option value="Kolaches de Fruta">Kolaches de Fruta</option>
-          <option value="Budin de Pan">Budin de Pan</option>
-          <option value="Bandejas Surtidas">Bandejas Surtidas</option>
-          <option value="Mallorcas">Mallorcas</option>
-          <option value="Another Pastries">Another Pastries</option>
-        </select>
-        <label>Quantity:</label>
-        <select name="Quantity" required>
-          <option value="6">6</option>
-          <option value="12">12</option>
-          <option value="24">24</option>
-          <option value="Another Quantity">Another Quantity</option>
-        </select>
-         <label>Your Name:</label>
-         <input name="name" type="text" required/>
-         <label>Your Email: </label>
-         <input name="_replyto" type="email" required/>
-         <label>Comments:</label>
-         <input name="Comments" type="message" required/>
-        <button>submit</button>
-      </form>
-      </section>
-       </center>
+    </nav>
 
      <address>
       Email<a href="mailto:Sarasquesitos@gmail.com"><strong>~Sara Rosado~</strong></a><br>
@@ -147,7 +114,7 @@ layout: compress
       Arlington,Tx<br>
 
     </address>
-   </center>
+   </div>
 
    <!--
         footer-bottom  start

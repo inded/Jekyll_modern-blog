@@ -5,3 +5,6 @@ keywords: Professsional,Presentation,Baker
 author: Sara's Quesitos LLC
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://sarasquesitos.com
+sass:
+    sass_dir: _sass
+    style: compact
