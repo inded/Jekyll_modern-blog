@@ -1,0 +1,19 @@
+// Fields styles.
+.field {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  // Label styles
+  label {
+    display: block;
+  }
+  // Input styles.
+  input  {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  textarea {
+    max-width: 100%;
+    width: 100%;
+  }
+}

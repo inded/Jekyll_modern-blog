@@ -8,24 +8,7 @@ permalink: 'order-now'
 <section id="contact-us">
 <h3>MakeYour Order</h3>
 <form action="https://formspree.io/josue.rosario8@gmail.com" method="POST">
- <label>Pastries:</label>
-<select name="Pastries" required>
- <option value="Quesitos">Quesitos</option>
- <option value="Tornillos">Tornillos</option>
- <option value="Pastelillos de Guayaba">Pastelillos de Guayaba</option>
- <option value="Kolaches de Fruta">Kolaches de Fruta</option>
- <option value="Budin de Pan">Budin de Pan</option>
- <option value="Bandejas Surtidas">Bandejas Surtidas</option>
- <option value="Mallorcas">Mallorcas</option>
- <option value="Another Pastries">Another Pastries</option>
-</select>
-<label>Quantity:</label>
-<select name="Quantity" required>
- <option value="6">6</option>
- <option value="12">12</option>
- <option value="24">24</option>
- <option value="Another Quantity">Another Quantity</option>
-</select>
+
 
 <div class="field">
   <label>Your Name:</label>
@@ -34,12 +17,38 @@ permalink: 'order-now'
 
 <div class="field">
   <label>Your Email: </label>
-  <!-- <input name="_replyto" type="email" required/> -->
+  <input name="_replyto" type="email" required/>
 </div>
 
 <div class="field">
+    <label>Pastries:</label>
+    <select name="Pastries" required>
+      <option value="Quesitos">Quesitos</option>
+      <option value="Tornillos">Tornillos</option>
+      <option value="Pastelillos de Guayaba">Pastelillos de Guayaba</option>
+      <option value="Kolaches de Fruta">Kolaches de Fruta</option>
+      <option value="Budin de Pan">Budin de Pan</option>
+      <option value="Bandejas Surtidas">Bandejas Surtidas</option>
+      <option value="Mallorcas">Mallorcas</option>
+      <option value="Another Pastries">Another Pastries</option>
+    </select>
+</div>
+<div class="field">
+    <label>Quantity:</label>
+    <select name="Quantity" required>
+      <option value="6">6</option>
+      <option value="12">12</option>
+      <option value="24">24</option>
+      <option value="Another Quantity">Another Quantity</option>
+    </select>
+</div>
+
+
+<div class="field">
   <label>Comments:</label>
-  <input name="Comments" type="message" required/>
+
+  <textarea >
+  </textarea>
 </div>
 
 <button>submit</button>
