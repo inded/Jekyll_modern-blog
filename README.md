@@ -17,6 +17,6 @@ Created by Claudio Calautti for Codrops. Released under the [GNU GPL license v3]
 Changes being that I made it jekyll ready and smushed the CSS together.
 
 
-## توضیخات اضافه 
+## توضیحات اضافه 
 
-این قالب توسط Wferr طراحی شده و من اون رو به فارسی برگردوندم 
+این قالب توسط وفرر طراحی شده و من فقط اون رو به فارسی برگردوندم ، این پروژه یکار صرفا تفریحی بوده و آموزشی برای خودم 
