@@ -1,0 +1,13 @@
+
+body {
+    font-family: Samim, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+    direction: rtl;
+    line-height: 1.5;
+    color: #3b393d;
+    background: #f0f0f0;
+    background-size: cover;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    overflow-y: scroll;
+}
