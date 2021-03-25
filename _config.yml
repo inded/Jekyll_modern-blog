@@ -1,8 +1,8 @@
 # Site settings
-title: Modern Blog
+title: 大晴天
 description: Modern-Blog A Elegant template for Jekyll
 keywords: Modern, Blogging, Fun
-author: Wferr
+author: 晴天
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
